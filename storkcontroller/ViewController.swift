@@ -24,14 +24,8 @@ class ViewController: UIViewController {
         controller.transitioningDelegate = transitionDelegate
         controller.modalPresentationStyle = .custom
         self.present(controller, animated: true, completion: nil)
-        let textView = UITextView(frame: CGRect(x: 20.0, y: 90.0, width: 250.0, height: 100.0))
-        self.automaticallyAdjustsScrollViewInsets = false
-        
-        textView.center = self.view.center
-        textView.textAlignment = NSTextAlignment.justified
-        textView.textColor = UIColor.blue
-        textView.backgroundColor = UIColor.lightGray
     }
+    
 
 }
 
