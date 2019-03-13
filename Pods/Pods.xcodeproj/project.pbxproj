@@ -1,0 +1,1646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C2C5E659A7305B155CA8ADAB82AED4 /* SPLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D989609C6DBB7BC5C49277F3F77AA15 /* SPLabel.swift */; };
+		0B0572CD7F1781F8A914EBBAF547B563 /* SPUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF2E0BAE84B1F9C10486318408B0C1A /* SPUIColorExtension.swift */; };
+		0B34F4485D1FA445FA6EC5A142791B76 /* SPUITabBarControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270C835CDC31EAA15AED9F48D0AB330B /* SPUITabBarControllerExtenshion.swift */; };
+		0CBCD5D368DEBBCD2255EE0B7509C910 /* Pods-storkcontrollerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 951485F37162E91C3230779F66040287 /* Pods-storkcontrollerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F245601768F9E72972795C132B0BC37 /* SPStorkPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995CA7748589D8D6C710DE40F0A9027 /* SPStorkPresentationController.swift */; };
+		0F9FF40268DAB797841320CDAA646EFA /* SPAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B328EE4108AC004F9536E6E8154EC79A /* SPAnimation.swift */; };
+		0FAFEA477DC115BD34822B12A426B518 /* SPCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFE0D8EFC294E85FD82DB7D3EE5B01C /* SPCollectionViewLayout.swift */; };
+		0FB2E783374A02D05B9C4DF097085D0E /* SPImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBA5D52F3912D3EB0C51FA440E8A6E /* SPImageView.swift */; };
+		111F1D44FC24BB423D3B908E53818EFC /* SPUICollectionViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4DDD43FCA2134117AC87D96393C1F4 /* SPUICollectionViewExtenshion.swift */; };
+		12C765B2DEC8F091AA40F2614054B3CB /* SPGolubevGolubevIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84D05DB14EE4C881B2F4E82C4EEB13F /* SPGolubevGolubevIconPack.swift */; };
+		13280EA0C34CDA5342A38715EDCCA61D /* SPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CDEBBCE4971C42F6F8A923CEF29E9 /* SPController.swift */; };
+		15123C3B8EF626C6E76DF4A3CFE935C8 /* SPProposeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35442A3BAF96E6CDAA401940561A3BD2 /* SPProposeController.swift */; };
+		1552CEE07573B671215546C51D123AF3 /* SPImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D768F30432D1EBB66C96C01E17799F0A /* SPImageTableViewCell.swift */; };
+		15DBED2C1924F0D4C44EB6F19509A89C /* SPStorkPresentingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B17017E0AC51F3C56703D710FC25839 /* SPStorkPresentingAnimationController.swift */; };
+		170272EACD3D9BA6AB575219F397E3DE /* SPSystemIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99075DDE732E0BE0F8771E252E2EEA2C /* SPSystemIconButton.swift */; };
+		171661B498EC8BE8E3F428FEC92775EC /* SPCodeSystemIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F3AF16809B89E749080B1BF43B0884 /* SPCodeSystemIconPack.swift */; };
+		19241FA8F3BE2CEDCB782CF74089E4BE /* SPFormMailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470B1E61C7A160A1149484947E0B1CD8 /* SPFormMailTableViewCell.swift */; };
+		1ACE29ABE60CB7CDEAA1ABBB2FFAF81B /* SPViber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768B7C8EE552A5506D405255520A988 /* SPViber.swift */; };
+		1AD200A6D518873744B9DC6EA1CB06AF /* SPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8861DE32694751FA195F7B0DE6202 /* SPButton.swift */; };
+		1C0D2DC26D69D22D5516D945F545F33E /* SPAppLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F66E33473D8C600BFC76A39AF70925 /* SPAppLaunch.swift */; };
+		1E2FFDA3FF793C6D36806E8204BC20F3 /* SPTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E5AEE1FA90F6578B2DA362C76A93C4 /* SPTableController.swift */; };
+		20082258188F53B2F7CACE6D2BC114B8 /* SPDownloadingUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39AFCF4CB9CFED4640016560D4780DD /* SPDownloadingUIImageView.swift */; };
+		20205E6DE7924BC49EE78013EB7B58ED /* SPUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C684B08EF5337F81058916B78531696 /* SPUITableView.swift */; };
+		2220D34E7163D554029505498A170286 /* SPArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162A90DE907BD7D23FB71EA07DFF53F /* SPArrayExtension.swift */; };
+		23B76AFEA210718069B10B74CA6F48BE /* SPDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA7BC79540A7BFD78D74C0EA264705 /* SPDownloader.swift */; };
+		25FBCC8363FF7C266D53B7E5DCB1ABF2 /* Pods-storkcontrollerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 447462A5F361453B0897E609C2C9979B /* Pods-storkcontrollerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274A354AEA9E6DE18BBBA93C5E3920AD /* SPUIFontExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58416628786C1662A0318A810562F5F0 /* SPUIFontExtenshion.swift */; };
+		2A2D50AB5B6C0AC53621059271197580 /* SPFormTextFiledTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17E9EA44929B5A43C4684116D62E0F /* SPFormTextFiledTableViewCell.swift */; };
+		33DC10F1D905F79005A3E53551D18C21 /* Pods-storkcontroller-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C1E6DDB1EEB25539B1C6C7BAD3CC7A /* Pods-storkcontroller-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350535580F1A4BB93AC0DC01C1A652C0 /* SPAppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F7D6A74F17FA5BCB14866F32829183 /* SPAppStore.swift */; };
+		38439730CBF12E2AA0999C679FE67B56 /* SPUIViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A5FF4EA1DEAB606845001311892EE /* SPUIViewExtenshion.swift */; };
+		3922F249A652A1DBFDEC1EB5D081F683 /* SPStorkViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE092C24D90351C4026AE254FFF17E /* SPStorkViewControllerExtenshion.swift */; };
+		39F47EF534C6CD7CD0F838693FA98F16 /* SPAppleMusicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324B8177569738BC51E450BA55FFCCE /* SPAppleMusicButton.swift */; };
+		3FB256BFD5A2BABD1F984F63E03F582D /* SPStorkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A804E26A0B864A74959DDF05C99D1 /* SPStorkController.swift */; };
+		419FF1963F6F4C220D5AAE975D2BBDDE /* SPCGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6844AF55F92B9F13B52BD03DF7539093 /* SPCGRectExtension.swift */; };
+		41CBC7B97277194A55E0D1FFF38A917B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		41FBD611A8E763A8522180E200557975 /* SPUIButtonExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA182779B3B3C528672D3BCFF7D9642A /* SPUIButtonExtenshion.swift */; };
+		421C896B458706B9909EE7CB067FE493 /* SPDateExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D196D0A07E854E44E983E0EEBCC21C7 /* SPDateExtenshion.swift */; };
+		4602713133CE0DAFA1ECA97445E115E0 /* SPBaseContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762A643CE1AFFF569BCEF367A864E5DA /* SPBaseContentTableViewCell.swift */; };
+		4A6042D1B1839E9AB3EB5ED88EC7247F /* SPStorkIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE947B2C3B4D221C7AC5AC0F396AC549 /* SPStorkIndicatorView.swift */; };
+		4B7D2A4EEC2ED6E00F9640A65689FA2B /* SPStatusBarManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047747177719086B055B9A13195BD173 /* SPStatusBarManagerController.swift */; };
+		4CCFEE179CA85F401D872EEF83C64E36 /* SPVibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53342991E44BD44476FBA2B878A25D45 /* SPVibration.swift */; };
+		4D94289C955D223C4DC15CD6C0067503 /* SPUIAlertControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E745C2622FD8B4B21C7F2476A2B41EC /* SPUIAlertControllerExtenshion.swift */; };
+		52D09729558504BC3582A679D61E94BF /* SPEmptyLabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6808945F289A1246E2498340582D883 /* SPEmptyLabelsView.swift */; };
+		53FF150F48AC055975CD22FED3034ADF /* SPFakeBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A725B0DC616E5B8091143C7F39D133 /* SPFakeBarView.swift */; };
+		589266F9B0797D721BA534A1AA05FC1D /* SPCodeAudioIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82A436EFEB1E0F60B461035045AFBAE /* SPCodeAudioIconPack.swift */; };
+		5B1505F5097A737C72A036AA7A2D158D /* SPSystemIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC121DC48B21B542FAFE3F5A62DDCEB2 /* SPSystemIconView.swift */; };
+		5B9F1B86D6B2BC22F30125FDC1AB7425 /* SPUITableViewCellExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA501976CDA82072BD1811F236170D /* SPUITableViewCellExtenshion.swift */; };
+		5C8F4D30427B7479DC3F6D84B34F1F0F /* SPBufer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A624F24946B5AFB763704EEC3BB21BF6 /* SPBufer.swift */; };
+		5EF6DFAD5335FFC40DA84A308525E7AD /* SPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A25356558E8D466EC125AD9994F39DE /* SPTableViewCell.swift */; };
+		5F312A220D971BACD5ABED36E567B289 /* SPGradeBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611AEC4336FF410B2DE2ABDD633FDCD /* SPGradeBlurView.swift */; };
+		60EE5D01DFF9C4EC9D289DE8A4785616 /* SPFormTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F62081FEABA21BE6FE2529EDB36727 /* SPFormTextTableViewCell.swift */; };
+		61B756B9D16F0203FBF672854D423738 /* SPBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8601C57D6686A45B64BD26CE5A72F7 /* SPBlurView.swift */; };
+		62893533FCB9B7BF979622A5972B10F1 /* SPNativeTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A15863A2B510258573510BB0D506601 /* SPNativeTableController.swift */; };
+		65070AE8FC4E46BDFCACB62E2274F93E /* SPFormLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6697BF3EF4BCB19377320CE83835A /* SPFormLabelTableViewCell.swift */; };
+		66921DA371B5D8D43BB5C8C68BCF59E0 /* SPCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B9283CFA6156C77B60C2B55773BBB /* SPCollectionView.swift */; };
+		6728F6CB1894AC6A613AD7921381CF30 /* SPMengTransformTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68C65BB7C213BF944BDB7ABB10678F /* SPMengTransformTableViewCell.swift */; };
+		6AB78B9291D9AC9936FC5169C4732F83 /* SPConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF67FFEADC74A6C717D677944340483 /* SPConstraints.swift */; };
+		6E34101FD0B47EBE3225D96823C430D2 /* SPUIVisualEffectViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E820C14A9B3E8229F71C4DC2DAB6F070 /* SPUIVisualEffectViewExtenshion.swift */; };
+		6F734D0DD1172865874E7B719D622E95 /* SPAppOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBF41BFAEF80AA977D04D81366226F /* SPAppOpener.swift */; };
+		7061D1DBA9DAD1E716E0D3D7A494A605 /* SPDotsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC58094EB5B08186745F1C7ED4D1BC99 /* SPDotsButton.swift */; };
+		71D09185FB6C5098003837A02698C071 /* SparrowKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FC92931EEF42552E8B3307D1438716 /* SparrowKit-dummy.m */; };
+		71FC0A1C0279D11728BA889028ECACC0 /* SPSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B88C1AA7536656D449EDF160C93EBC /* SPSeparatorView.swift */; };
+		76F0E2AB988CE80305D426E94F6E3899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		77B01A7601E69690D7599244DE57581E /* SPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D1BE8FD2A7F2DF298B231D3F78C9A /* SPCollectionViewCell.swift */; };
+		782FAB878B02B7B1D78A485C25BC438C /* SPLocale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106EFE40B62BAF0D7F9988655835F85 /* SPLocale.swift */; };
+		78B493236F2172996B947B6F376B2231 /* SPPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71962B97D1617FA78E080907992AFFB9 /* SPPageCollectionView.swift */; };
+		7AC0858BC669E332E7B24CCD1F8A35BA /* SPCodeSocialIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF6A3FE1E32658119F1F5F2EAFD6ED /* SPCodeSocialIconPack.swift */; };
+		7C2E77E381FD52292ADBB2E054983C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7F88BEA6290624FA752AA84C9FBB207D /* SPStorkDismissingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E71E450E09F8EFD198E4371535E6C8 /* SPStorkDismissingAnimationController.swift */; };
+		801D01512BC56B1965DE6D47CED2653C /* SPFormButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F2A8D14A0C1BBDEBE8E135DDE92AE /* SPFormButtonTableViewCell.swift */; };
+		8546F34049D2A004258D86BB6EAEA50A /* SPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D5C0233981B068A531C5EAEB1FE4F5 /* SPView.swift */; };
+		856454BDF0B0F9DAAF02AF01EBDE4CD3 /* Pods-storkcontroller-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCCE0CCC80390AE96E89722AF8B4E4C /* Pods-storkcontroller-dummy.m */; };
+		85BAAD291A7AA8223716EBB19A02680F /* SPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9B69EC5C23AEEAEBD71A5BC5FC490 /* SPTextField.swift */; };
+		868820C383ECBFCBB8AB27C4155EB636 /* SPUIImageViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F157F74E2D56D5F3DC36B0D967957E0 /* SPUIImageViewExtenshion.swift */; };
+		88221EF23EAE6B91ACA37BCAF950CCFE /* SPAnimationUpward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7ECC13B225589C19F7723C37C3F8D /* SPAnimationUpward.swift */; };
+		8B9CA47027A93A4EF913FA492CA9FEC3 /* SPFormFeaturedTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4855CAC1470E4ED60E3B299268E3E82 /* SPFormFeaturedTitleTableViewCell.swift */; };
+		8CEC7ED65DAF16AC86940086026ECC11 /* SPFooterButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F23D282C56253CB0E248AE58B7C02F /* SPFooterButtonsView.swift */; };
+		936034ACAAE71898D6935E8B98A973BB /* SPTwitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2506D2F13E20EC16305F5DB7C647CE05 /* SPTwitter.swift */; };
+		94907A94A082DDAB2DEC61783B10AF73 /* SPAudioIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D0554D11AEAAB03AFA185284B72CE /* SPAudioIconView.swift */; };
+		966F2D42B3D7960C37CCA2C563F3D7E1 /* SPLocalAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B3E380F32136842EDE27404BCBB56 /* SPLocalAuthentication.swift */; };
+		999DCC57F1086CFF21DBD863E8C96995 /* SPVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB05333EB037F0E4CC252D6303C94A9 /* SPVideoPlayer.swift */; };
+		9AC6A662BAB2D36516E75CF8DC6F65D6 /* SPGolubevIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B704E0CC95EC23DEA11883580A4367B3 /* SPGolubevIconView.swift */; };
+		9C0B1EC8912438AC2A345CCBCD443A68 /* SPSocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25948AF8E32770F886FD0A36001B0F98 /* SPSocialButton.swift */; };
+		A00EBC26D94B2F4550006C9C1FCE0B85 /* SPAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92920F563958E0AF0CFDFF2CFE2E84D /* SPAudio.swift */; };
+		A229E73A2A1E0E37FC42E0A42A2158B6 /* SPTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35ADEB0C7B55F2236C6A062E9892C48 /* SPTableView.swift */; };
+		A3180159741551E4219C81E6ADDF87A4 /* SPAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795B442108A10D9B4AFCE6033D53370 /* SPAudioPlayer.swift */; };
+		A6C9CAAACD52D404B3F440BE9A033485 /* SPUIViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676B90A75FD9C39FD5E035A5ECF7B34 /* SPUIViewControllerExtenshion.swift */; };
+		A78D37BC20C0D8F56BB0C149C87E45C1 /* SPMengTransformCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41A9BF6E6A138000022A11920C4465 /* SPMengTransformCollectionView.swift */; };
+		A872BF9641386ED48B9F8AD57FCE98CA /* SPPlayCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7FE286FFE4B3D4BB004F1A21C698D /* SPPlayCircleButton.swift */; };
+		AA6DDC44A7C210990C1B130262294505 /* SPCenterLabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C6954A69FEDD1C5C7EDECA658907A /* SPCenterLabelsView.swift */; };
+		AB2D356C9BE06B2C4B131BB1769BFA05 /* SPStorkTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1B1E0E040E2EED66A868EBE237E67 /* SPStorkTransitioningDelegate.swift */; };
+		AE67D73EC1617A4771DCDACCCC06CD9A /* SPStorkController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 048223B62934658CC0960D03F4E1A21A /* SPStorkController-dummy.m */; };
+		B32A4B706B26AFD77E70D77500C6E120 /* SPNativeLargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90AE51C56B64CC4438F70DB976FAF47 /* SPNativeLargeButton.swift */; };
+		B3C035CE4B3AD0936DEFF9A450DF6A2B /* SPRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F634845143F0F03B6BDFB9662BFC1 /* SPRandom.swift */; };
+		B3F4F5E01B935B3C79D2B9B2CD191593 /* SPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2943CDECA5D22D12D1FD452A188C3 /* SPApp.swift */; };
+		B6DA23CABFCF85367B26A3B543FE10F2 /* SPShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A04C1136CBA4991E358D481AC73650 /* SPShare.swift */; };
+		B76A80E686169EB4527981444E01A673 /* SPAppleMusicSectionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918281DAB40FEA8A493905771B493FEF /* SPAppleMusicSectionButtonsView.swift */; };
+		B82C3B02193572E2927B79D55DB50549 /* SPUserDefaultsExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDDB81A7C481D85160FEE7C080435C /* SPUserDefaultsExtenshion.swift */; };
+		B93663ABF1ABC24567AAB76D2E297D5C /* SPTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0690886BB39B2796777B0AC8CD1685 /* SPTypes.swift */; };
+		B99B8988281651EDDE804338B7EA9BB8 /* SPDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE4AFE08020D3F44F6AFEC3AF3EAE9 /* SPDevice.swift */; };
+		BB0F6CC5B1AFC516E6E08FFE890AFD08 /* SPShadowDeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF34C981E29152D2A31E2BADB1F37AE /* SPShadowDeep.swift */; };
+		BC1B5C7A6616C3B266A68764C046E666 /* SPWhatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC90318FA050C9E060C63722775D15B /* SPWhatsApp.swift */; };
+		BD2D24850C145FD4B4D8D587D00E0399 /* SPTextFieldExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681AF1043ABE6BCC861B0120CBE89D16 /* SPTextFieldExtenshion.swift */; };
+		BE7D5799358CD9BDCA8CD79A63B58242 /* SPLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B810ABB04828BE7C02B599CB7B89DB4F /* SPLayout.swift */; };
+		BEEB627DA6AF22F9300A15A937CAC5A9 /* SPDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D8A5EA82145CD6B1DC351BB281AE18 /* SPDelay.swift */; };
+		C10EDB4C7211240C84A94E33F2C0E835 /* SPFormTextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87E8050C911D12D3975DA82D5C233C /* SPFormTextInputTableViewCell.swift */; };
+		C1DAC09068388D1B83B0B68C0BC44740 /* SPAnimationAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA11A6878AE4A5AB15A6DA43B3F3A20 /* SPAnimationAlpha.swift */; };
+		C4E25DB3FEE0B5754725355AAD46CBAE /* SPMengTransformCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968E580287C305FAF3103DF6ACCD518 /* SPMengTransformCollectionViewCell.swift */; };
+		C5C11DD0B04FE18EE4E39610D0EAB88E /* SPDownloadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71836B33BD92358DA33C9DA7754DA249 /* SPDownloadingButton.swift */; };
+		C6CB10BA814F0B85040237275736739A /* SPNativeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA685B798C3B2CACAA7BBFEB5004B9C /* SPNativeColors.swift */; };
+		CA8DF38A70AC59B234CBE0CF48BF1FFF /* SPMail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0118DA57CE93065669544CD494EF13EC /* SPMail.swift */; };
+		CAAC6EA9371703D3BBBC9E8A50439D3A /* SPStringExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7F8F3E3DD3CB8DEBFE0E16E3BB22F2 /* SPStringExtenshion.swift */; };
+		CBD57585B113EFA399DCE8EA9E4F6744 /* SPScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36045DD728D1B56BD61A32D8988BE365 /* SPScrollView.swift */; };
+		D1CE6F7973A02C5D6076FBCE16CC3716 /* SPTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E6F416487F098DA698B9DEB558A7A2 /* SPTextView.swift */; };
+		D4E4FE389F7B7FE1113EBEC66C942869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D80DD73C677580B4E12FA00D165BF0D5 /* SPPromoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0457F3F5AC712F3681711F2DA523F2 /* SPPromoTableViewCell.swift */; };
+		DA6C161DF6F98A64573FF1F62D2138AD /* Pods-storkcontrollerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4344A00F75F8BEAC708130322BB613F5 /* Pods-storkcontrollerTests-dummy.m */; };
+		DCCB3F94E5B4EFE1B00557755FE667C7 /* SPCodeDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A3BE04F05345940E373C50FBC74FE /* SPCodeDraw.swift */; };
+		DE8F481B2C8750D1B4092B425D0960EF /* SPStorkController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D20FC9EA6C3FAB4B1012537D19357C /* SPStorkController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE924D014244CC9407F1B8E7A367899C /* SPCircleCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB07153A06DFE23F1E17E8BE832FA64 /* SPCircleCloseButton.swift */; };
+		E0DC2A39389CF5E569079EECE31D8E28 /* SPAppBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAABC1F9EA37E81C8EB7A2C368F0AAC /* SPAppBadge.swift */; };
+		E1FB9264DA7758FED3542F5A6F6A313A /* SPAppStoreActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58866FD44D4C304873DE9F9A0A4EC17C /* SPAppStoreActionButton.swift */; };
+		E31C506500D1AB86BA295160CAD2627A /* SPUINavigationControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096097C5D02D9F453CB388EF01533B22 /* SPUINavigationControllerExtenshion.swift */; };
+		E375A11A71196BE33E2ED5C9D0342469 /* SPInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E27A6CB10CF07309884F84C1DD6F48B /* SPInstagram.swift */; };
+		E436C2077A56C7E5569BA0B9C57E4684 /* SPUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273505641BEA1FF52D0883C236DEE317 /* SPUIImageExtension.swift */; };
+		E532E3A57B5F9679E21FCDF212902CCC /* SPGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E16B203C70245385F2A916CF49F07A /* SPGradientView.swift */; };
+		E5AFB71B5ED356D892F2DF7EDCB2F3A9 /* Pods-storkcontrollerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90808F0050DF30FFC1F9A8B6B5D7AB5E /* Pods-storkcontrollerUITests-dummy.m */; };
+		E7DF75C34A4ED610FF7D44B6E6C129FC /* SPShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121C0AEEFD79FD44E9DC90D6184282E /* SPShadow.swift */; };
+		E9E5053E750C8D843FF40AE9C699F46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		EA164D4C1C5944DF17680606F2DF8950 /* SPSocialIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A615AE4B05B36C0B21D18988AB72ABE1 /* SPSocialIconView.swift */; };
+		EA942469C9DDB3598F51253AEE066495 /* SPUILabelExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73F20428B0492C25BD1D6D8FE15A8C7 /* SPUILabelExtenshion.swift */; };
+		EC60A82DB6D8638F6E9566C42AAD249A /* SPCGSizeExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F61B71821173F3B4748A656AD3CDF2 /* SPCGSizeExtenshion.swift */; };
+		ECBE0C1E382695A1F18704FB433EFDE5 /* SPTelegram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F4BD5FC3A75959E738DC35538EA372 /* SPTelegram.swift */; };
+		EDDF0DEA4F8B24606066E8B120A751B5 /* SparrowKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A32A918F1AA4270F146D9C98BBEA7967 /* SparrowKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE76E76401AE534F1175CAF8D2B76474 /* SPUITextFieldExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB1296BC88DE16856A998722E1533E /* SPUITextFieldExtenshion.swift */; };
+		EF3773032B29D1F0BECAB6C218E0649A /* SPStrideableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896D83A958E34FC0A95BED5DFB1D10CB /* SPStrideableExtension.swift */; };
+		F80B3B2BF53F893139A5404E197B9157 /* SPAnimationSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CCF2CC4B45D6062BF477AA359B1A37 /* SPAnimationSpring.swift */; };
+		F8BB21C20058B8F9B8076C47684B61EF /* SPLocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420BDEE5F687D7BBA02769D348641DA /* SPLocalNotification.swift */; };
+		FB2E6ACC7D73BCBD65CD1CF7C5FE23BE /* SPProposeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F89A979FFF5BAD401B43646DACCEB /* SPProposeTableViewCell.swift */; };
+		FFBCDD51237B0F48D5F4085150F2F52D /* SPSectionLabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD737A3E59840E8272BD59D05DE39DB /* SPSectionLabelsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E6ED20A26195CA866B38D1BED5BFFF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A048FE0852268B8E29CFCF29955840F2;
+			remoteInfo = SparrowKit;
+		};
+		9F241002176604C241D9388C1BA9D1E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC023946A70A958BF4903B2D526207D;
+			remoteInfo = "Pods-storkcontroller";
+		};
+		B9E8E02B3BE00ABDC6523B137899B8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC023946A70A958BF4903B2D526207D;
+			remoteInfo = "Pods-storkcontroller";
+		};
+		BC3093C4DDC08DF89915CF15E7B4EA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 589B2B962D7399B92EA012C9BE9004ED;
+			remoteInfo = SPStorkController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0118DA57CE93065669544CD494EF13EC /* SPMail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPMail.swift; path = Source/SparrowKit/Mail/SPMail.swift; sourceTree = "<group>"; };
+		01A725B0DC616E5B8091143C7F39D133 /* SPFakeBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFakeBarView.swift; path = Source/SparrowKit/UI/Other/SPFakeBarView.swift; sourceTree = "<group>"; };
+		01E16B203C70245385F2A916CF49F07A /* SPGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPGradientView.swift; path = Source/SparrowKit/UI/Other/SPGradientView.swift; sourceTree = "<group>"; };
+		03FC92931EEF42552E8B3307D1438716 /* SparrowKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SparrowKit-dummy.m"; sourceTree = "<group>"; };
+		0455D20FD10FFD33188CBA231C46EA3A /* Pods-storkcontrollerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-storkcontrollerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		047747177719086B055B9A13195BD173 /* SPStatusBarManagerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStatusBarManagerController.swift; path = Source/SparrowKit/UI/Controllers/SPStatusBarManagerController.swift; sourceTree = "<group>"; };
+		048223B62934658CC0960D03F4E1A21A /* SPStorkController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPStorkController-dummy.m"; sourceTree = "<group>"; };
+		07E5AEE1FA90F6578B2DA362C76A93C4 /* SPTableController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTableController.swift; path = Source/SparrowKit/UI/Controllers/SPTableController.swift; sourceTree = "<group>"; };
+		07F9B69EC5C23AEEAEBD71A5BC5FC490 /* SPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTextField.swift; path = Source/SparrowKit/UI/Other/SPTextField.swift; sourceTree = "<group>"; };
+		083F89A979FFF5BAD401B43646DACCEB /* SPProposeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPProposeTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/SPProposeTableViewCell.swift; sourceTree = "<group>"; };
+		096097C5D02D9F453CB388EF01533B22 /* SPUINavigationControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUINavigationControllerExtenshion.swift; path = Source/SparrowKit/Extension/SPUINavigationControllerExtenshion.swift; sourceTree = "<group>"; };
+		0E811F6B5AC3849AFFEB4D653DFA904A /* SparrowKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SparrowKit.xcconfig; sourceTree = "<group>"; };
+		0F0457F3F5AC712F3681711F2DA523F2 /* SPPromoTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPromoTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/SPPromoTableViewCell.swift; sourceTree = "<group>"; };
+		0FD182DECF5260B90B2472C5936BDC4D /* Pods-storkcontrollerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-storkcontrollerUITests.modulemap"; sourceTree = "<group>"; };
+		1162A90DE907BD7D23FB71EA07DFF53F /* SPArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPArrayExtension.swift; path = Source/SparrowKit/Extension/SPArrayExtension.swift; sourceTree = "<group>"; };
+		12AA501976CDA82072BD1811F236170D /* SPUITableViewCellExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUITableViewCellExtenshion.swift; path = Source/SparrowKit/Extension/SPUITableViewCellExtenshion.swift; sourceTree = "<group>"; };
+		1324B8177569738BC51E450BA55FFCCE /* SPAppleMusicButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAppleMusicButton.swift; path = Source/SparrowKit/UI/Buttons/SPAppleMusicButton.swift; sourceTree = "<group>"; };
+		1362567238BECC0021F9E5665CC7FCA2 /* SPStorkController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPStorkController.xcconfig; sourceTree = "<group>"; };
+		13C60B232423D1C6A64E4F01614BCDD5 /* Pods-storkcontrollerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-storkcontrollerTests.modulemap"; sourceTree = "<group>"; };
+		14DBDEA8907998931AED2354477E9EE1 /* Pods-storkcontrollerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-storkcontrollerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15F4BD5FC3A75959E738DC35538EA372 /* SPTelegram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTelegram.swift; path = Source/SparrowKit/Social/telegram/SPTelegram.swift; sourceTree = "<group>"; };
+		17B7FE286FFE4B3D4BB004F1A21C698D /* SPPlayCircleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPlayCircleButton.swift; path = Source/SparrowKit/UI/Buttons/SPPlayCircleButton.swift; sourceTree = "<group>"; };
+		1951FF766D2467E8690BA0CC92CC566B /* Pods_storkcontrollerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_storkcontrollerUITests.framework; path = "Pods-storkcontrollerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D989609C6DBB7BC5C49277F3F77AA15 /* SPLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPLabel.swift; path = Source/SparrowKit/UI/Labels/SPLabel.swift; sourceTree = "<group>"; };
+		1E7F8F3E3DD3CB8DEBFE0E16E3BB22F2 /* SPStringExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStringExtenshion.swift; path = Source/SparrowKit/Extension/SPStringExtenshion.swift; sourceTree = "<group>"; };
+		22D20FC9EA6C3FAB4B1012537D19357C /* SPStorkController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-umbrella.h"; sourceTree = "<group>"; };
+		2506D2F13E20EC16305F5DB7C647CE05 /* SPTwitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTwitter.swift; path = Source/SparrowKit/Social/twitter/SPTwitter.swift; sourceTree = "<group>"; };
+		25948AF8E32770F886FD0A36001B0F98 /* SPSocialButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSocialButton.swift; path = Source/SparrowKit/UI/Buttons/SPSocialButton.swift; sourceTree = "<group>"; };
+		270C835CDC31EAA15AED9F48D0AB330B /* SPUITabBarControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUITabBarControllerExtenshion.swift; path = Source/SparrowKit/Extension/SPUITabBarControllerExtenshion.swift; sourceTree = "<group>"; };
+		273505641BEA1FF52D0883C236DEE317 /* SPUIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIImageExtension.swift; path = Source/SparrowKit/Extension/SPUIImageExtension.swift; sourceTree = "<group>"; };
+		28C1E6DDB1EEB25539B1C6C7BAD3CC7A /* Pods-storkcontroller-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-storkcontroller-umbrella.h"; sourceTree = "<group>"; };
+		2A15863A2B510258573510BB0D506601 /* SPNativeTableController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPNativeTableController.swift; path = Source/SparrowKit/UI/Controllers/SPNativeTableController.swift; sourceTree = "<group>"; };
+		2ACE092C24D90351C4026AE254FFF17E /* SPStorkViewControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkViewControllerExtenshion.swift; path = Source/SPStorkController/SPStorkViewControllerExtenshion.swift; sourceTree = "<group>"; };
+		2AED552607D80CEA88B0FD14EA9E69A4 /* SPStorkController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPStorkController.modulemap; sourceTree = "<group>"; };
+		2C684B08EF5337F81058916B78531696 /* SPUITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUITableView.swift; path = Source/SparrowKit/Extension/SPUITableView.swift; sourceTree = "<group>"; };
+		300F4BC5C5EE2A99AF12A98AF3B6798F /* Pods-storkcontroller-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-storkcontroller-acknowledgements.plist"; sourceTree = "<group>"; };
+		35442A3BAF96E6CDAA401940561A3BD2 /* SPProposeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPProposeController.swift; path = Source/SparrowKit/UI/Controllers/SPProposeController.swift; sourceTree = "<group>"; };
+		35BBA5D52F3912D3EB0C51FA440E8A6E /* SPImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPImageView.swift; path = Source/SparrowKit/UI/Other/SPImageView.swift; sourceTree = "<group>"; };
+		36045DD728D1B56BD61A32D8988BE365 /* SPScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPScrollView.swift; path = Source/SparrowKit/UI/Other/SPScrollView.swift; sourceTree = "<group>"; };
+		37CDAA837CFFDCDC941302E7AF321CC7 /* Pods-storkcontroller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-storkcontroller.release.xcconfig"; sourceTree = "<group>"; };
+		3AA685B798C3B2CACAA7BBFEB5004B9C /* SPNativeColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPNativeColors.swift; path = Source/SparrowKit/Native/SPNativeColors.swift; sourceTree = "<group>"; };
+		3B7B9283CFA6156C77B60C2B55773BBB /* SPCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCollectionView.swift; path = Source/SparrowKit/UI/Collections/Views/SPCollectionView.swift; sourceTree = "<group>"; };
+		40D5C0233981B068A531C5EAEB1FE4F5 /* SPView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPView.swift; path = Source/SparrowKit/UI/Other/SPView.swift; sourceTree = "<group>"; };
+		40E71E450E09F8EFD198E4371535E6C8 /* SPStorkDismissingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkDismissingAnimationController.swift; path = Source/SPStorkController/SPStorkDismissingAnimationController.swift; sourceTree = "<group>"; };
+		4344A00F75F8BEAC708130322BB613F5 /* Pods-storkcontrollerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-storkcontrollerTests-dummy.m"; sourceTree = "<group>"; };
+		447462A5F361453B0897E609C2C9979B /* Pods-storkcontrollerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-storkcontrollerTests-umbrella.h"; sourceTree = "<group>"; };
+		470B1E61C7A160A1149484947E0B1CD8 /* SPFormMailTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFormMailTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/Form/SPFormMailTableViewCell.swift; sourceTree = "<group>"; };
+		4A25356558E8D466EC125AD9994F39DE /* SPTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/SPTableViewCell.swift; sourceTree = "<group>"; };
+		4BE4807DBD421298F1D57AE0AE6C74CC /* Pods-storkcontroller.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-storkcontroller.modulemap"; sourceTree = "<group>"; };
+		4D196D0A07E854E44E983E0EEBCC21C7 /* SPDateExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDateExtenshion.swift; path = Source/SparrowKit/Extension/SPDateExtenshion.swift; sourceTree = "<group>"; };
+		4DB07153A06DFE23F1E17E8BE832FA64 /* SPCircleCloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCircleCloseButton.swift; path = Source/SparrowKit/UI/Buttons/SPCircleCloseButton.swift; sourceTree = "<group>"; };
+		4DEBF41BFAEF80AA977D04D81366226F /* SPAppOpener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAppOpener.swift; path = Source/SparrowKit/App/SPAppOpener.swift; sourceTree = "<group>"; };
+		4E8FA02EA6E6FBA7152813AC3DC9ECD7 /* Pods-storkcontrollerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-storkcontrollerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53342991E44BD44476FBA2B878A25D45 /* SPVibration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPVibration.swift; path = Source/SparrowKit/Vibration/SPVibration.swift; sourceTree = "<group>"; };
+		58416628786C1662A0318A810562F5F0 /* SPUIFontExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIFontExtenshion.swift; path = Source/SparrowKit/Extension/SPUIFontExtenshion.swift; sourceTree = "<group>"; };
+		58866FD44D4C304873DE9F9A0A4EC17C /* SPAppStoreActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAppStoreActionButton.swift; path = Source/SparrowKit/UI/Buttons/SPAppStoreActionButton.swift; sourceTree = "<group>"; };
+		5968E580287C305FAF3103DF6ACCD518 /* SPMengTransformCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPMengTransformCollectionViewCell.swift; path = Source/SparrowKit/UI/Collections/Cells/SPMengTransformCollectionViewCell.swift; sourceTree = "<group>"; };
+		5BFF6A3FE1E32658119F1F5F2EAFD6ED /* SPCodeSocialIconPack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCodeSocialIconPack.swift; path = "Source/SparrowKit/Code Draw/SPCodeSocialIconPack.swift"; sourceTree = "<group>"; };
+		5C4DDD43FCA2134117AC87D96393C1F4 /* SPUICollectionViewExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUICollectionViewExtenshion.swift; path = Source/SparrowKit/Extension/SPUICollectionViewExtenshion.swift; sourceTree = "<group>"; };
+		5D17E9EA44929B5A43C4684116D62E0F /* SPFormTextFiledTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFormTextFiledTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/Form/SPFormTextFiledTableViewCell.swift; sourceTree = "<group>"; };
+		5E745C2622FD8B4B21C7F2476A2B41EC /* SPUIAlertControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIAlertControllerExtenshion.swift; path = Source/SparrowKit/Extension/SPUIAlertControllerExtenshion.swift; sourceTree = "<group>"; };
+		602CDEBBCE4971C42F6F8A923CEF29E9 /* SPController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPController.swift; path = Source/SparrowKit/UI/Controllers/SPController.swift; sourceTree = "<group>"; };
+		616C2876634CAD2C273E2C85EA88D933 /* SPStorkController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-prefix.pch"; sourceTree = "<group>"; };
+		681AF1043ABE6BCC861B0120CBE89D16 /* SPTextFieldExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTextFieldExtenshion.swift; path = Source/SparrowKit/Extension/SPTextFieldExtenshion.swift; sourceTree = "<group>"; };
+		6844AF55F92B9F13B52BD03DF7539093 /* SPCGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCGRectExtension.swift; path = Source/SparrowKit/Extension/SPCGRectExtension.swift; sourceTree = "<group>"; };
+		6995CA7748589D8D6C710DE40F0A9027 /* SPStorkPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentationController.swift; path = Source/SPStorkController/SPStorkPresentationController.swift; sourceTree = "<group>"; };
+		6F157F74E2D56D5F3DC36B0D967957E0 /* SPUIImageViewExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIImageViewExtenshion.swift; path = Source/SparrowKit/Extension/SPUIImageViewExtenshion.swift; sourceTree = "<group>"; };
+		71836B33BD92358DA33C9DA7754DA249 /* SPDownloadingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDownloadingButton.swift; path = Source/SparrowKit/UI/Buttons/SPDownloadingButton.swift; sourceTree = "<group>"; };
+		71962B97D1617FA78E080907992AFFB9 /* SPPageCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPageCollectionView.swift; path = Source/SparrowKit/UI/Collections/Views/SPPageCollectionView.swift; sourceTree = "<group>"; };
+		71F7D6A74F17FA5BCB14866F32829183 /* SPAppStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAppStore.swift; path = Source/SparrowKit/AppStore/SPAppStore.swift; sourceTree = "<group>"; };
+		727A32FD4F48BF5A71FE0FEBC05B9E4B /* Pods-storkcontroller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-storkcontroller.debug.xcconfig"; sourceTree = "<group>"; };
+		7420BDEE5F687D7BBA02769D348641DA /* SPLocalNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPLocalNotification.swift; path = Source/SparrowKit/Notification/SPLocalNotification.swift; sourceTree = "<group>"; };
+		74C7B76C6495051B47E291F3A5072FE3 /* SparrowKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SparrowKit-prefix.pch"; sourceTree = "<group>"; };
+		74F3AF16809B89E749080B1BF43B0884 /* SPCodeSystemIconPack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCodeSystemIconPack.swift; path = "Source/SparrowKit/Code Draw/SPCodeSystemIconPack.swift"; sourceTree = "<group>"; };
+		7611AEC4336FF410B2DE2ABDD633FDCD /* SPGradeBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPGradeBlurView.swift; path = Source/SparrowKit/UI/Other/SPGradeBlurView.swift; sourceTree = "<group>"; };
+		762A643CE1AFFF569BCEF367A864E5DA /* SPBaseContentTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPBaseContentTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/SPBaseContentTableViewCell.swift; sourceTree = "<group>"; };
+		7795B442108A10D9B4AFCE6033D53370 /* SPAudioPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAudioPlayer.swift; path = Source/SparrowKit/Audio/SPAudioPlayer.swift; sourceTree = "<group>"; };
+		78A04C1136CBA4991E358D481AC73650 /* SPShare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPShare.swift; path = Source/SparrowKit/Share/SPShare.swift; sourceTree = "<group>"; };
+		78EB1296BC88DE16856A998722E1533E /* SPUITextFieldExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUITextFieldExtenshion.swift; path = Source/SparrowKit/Extension/SPUITextFieldExtenshion.swift; sourceTree = "<group>"; };
+		7AC90318FA050C9E060C63722775D15B /* SPWhatsApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPWhatsApp.swift; path = Source/SparrowKit/Social/whatsapp/SPWhatsApp.swift; sourceTree = "<group>"; };
+		7BF2943CDECA5D22D12D1FD452A188C3 /* SPApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPApp.swift; path = Source/SparrowKit/App/SPApp.swift; sourceTree = "<group>"; };
+		7BF34C981E29152D2A31E2BADB1F37AE /* SPShadowDeep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPShadowDeep.swift; path = Source/SparrowKit/Shadow/SPShadowDeep.swift; sourceTree = "<group>"; };
+		7E2D0554D11AEAAB03AFA185284B72CE /* SPAudioIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAudioIconView.swift; path = "Source/SparrowKit/UI/Code Draw/SPAudioIconView.swift"; sourceTree = "<group>"; };
+		7F87E8050C911D12D3975DA82D5C233C /* SPFormTextInputTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFormTextInputTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/Form/SPFormTextInputTableViewCell.swift; sourceTree = "<group>"; };
+		819EE74EC1714A67C7AF50EDF5070BF4 /* Pods-storkcontrollerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-storkcontrollerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		876A804E26A0B864A74959DDF05C99D1 /* SPStorkController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkController.swift; path = Source/SPStorkController/SPStorkController.swift; sourceTree = "<group>"; };
+		88F61B71821173F3B4748A656AD3CDF2 /* SPCGSizeExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCGSizeExtenshion.swift; path = Source/SparrowKit/Extension/SPCGSizeExtenshion.swift; sourceTree = "<group>"; };
+		88F7ECC13B225589C19F7723C37C3F8D /* SPAnimationUpward.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAnimationUpward.swift; path = Source/SparrowKit/Animation/SPAnimationUpward.swift; sourceTree = "<group>"; };
+		896D83A958E34FC0A95BED5DFB1D10CB /* SPStrideableExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStrideableExtension.swift; path = Source/SparrowKit/Extension/SPStrideableExtension.swift; sourceTree = "<group>"; };
+		89E6F416487F098DA698B9DEB558A7A2 /* SPTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTextView.swift; path = Source/SparrowKit/UI/Other/SPTextView.swift; sourceTree = "<group>"; };
+		8C603C805CFB5B0B70C5ACA14E9C38D0 /* Pods-storkcontrollerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-storkcontrollerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8CAE4AFE08020D3F44F6AFEC3AF3EAE9 /* SPDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDevice.swift; path = Source/SparrowKit/Device/SPDevice.swift; sourceTree = "<group>"; };
+		8D5F76065B2AEB0658862CDC2F84E915 /* Pods-storkcontrollerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-storkcontrollerTests.release.xcconfig"; sourceTree = "<group>"; };
+		90808F0050DF30FFC1F9A8B6B5D7AB5E /* Pods-storkcontrollerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-storkcontrollerUITests-dummy.m"; sourceTree = "<group>"; };
+		918281DAB40FEA8A493905771B493FEF /* SPAppleMusicSectionButtonsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAppleMusicSectionButtonsView.swift; path = Source/SparrowKit/UI/Buttons/SPAppleMusicSectionButtonsView.swift; sourceTree = "<group>"; };
+		93CA7BC79540A7BFD78D74C0EA264705 /* SPDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDownloader.swift; path = Source/SparrowKit/Downloader/SPDownloader.swift; sourceTree = "<group>"; };
+		94B6697BF3EF4BCB19377320CE83835A /* SPFormLabelTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFormLabelTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/Form/SPFormLabelTableViewCell.swift; sourceTree = "<group>"; };
+		951485F37162E91C3230779F66040287 /* Pods-storkcontrollerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-storkcontrollerUITests-umbrella.h"; sourceTree = "<group>"; };
+		99075DDE732E0BE0F8771E252E2EEA2C /* SPSystemIconButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSystemIconButton.swift; path = Source/SparrowKit/UI/Buttons/SPSystemIconButton.swift; sourceTree = "<group>"; };
+		99D4BECD6518B21497D39375F3BB935D /* Pods-storkcontroller-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-storkcontroller-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B17017E0AC51F3C56703D710FC25839 /* SPStorkPresentingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentingAnimationController.swift; path = Source/SPStorkController/SPStorkPresentingAnimationController.swift; sourceTree = "<group>"; };
+		9BD8861DE32694751FA195F7B0DE6202 /* SPButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPButton.swift; path = Source/SparrowKit/UI/Buttons/SPButton.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCCE0CCC80390AE96E89722AF8B4E4C /* Pods-storkcontroller-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-storkcontroller-dummy.m"; sourceTree = "<group>"; };
+		9E27A6CB10CF07309884F84C1DD6F48B /* SPInstagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPInstagram.swift; path = Source/SparrowKit/Social/instagram/SPInstagram.swift; sourceTree = "<group>"; };
+		9EC09549EC2801F6848BD584C1497EC1 /* Pods_storkcontrollerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_storkcontrollerTests.framework; path = "Pods-storkcontrollerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29F634845143F0F03B6BDFB9662BFC1 /* SPRandom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRandom.swift; path = Source/SparrowKit/Random/SPRandom.swift; sourceTree = "<group>"; };
+		A2F66E33473D8C600BFC76A39AF70925 /* SPAppLaunch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAppLaunch.swift; path = Source/SparrowKit/App/SPAppLaunch.swift; sourceTree = "<group>"; };
+		A32A918F1AA4270F146D9C98BBEA7967 /* SparrowKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SparrowKit-umbrella.h"; sourceTree = "<group>"; };
+		A4F62081FEABA21BE6FE2529EDB36727 /* SPFormTextTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFormTextTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/Form/SPFormTextTableViewCell.swift; sourceTree = "<group>"; };
+		A615AE4B05B36C0B21D18988AB72ABE1 /* SPSocialIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSocialIconView.swift; path = "Source/SparrowKit/UI/Code Draw/SPSocialIconView.swift"; sourceTree = "<group>"; };
+		A624F24946B5AFB763704EEC3BB21BF6 /* SPBufer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPBufer.swift; path = Source/SparrowKit/Bufer/SPBufer.swift; sourceTree = "<group>"; };
+		A8B88C1AA7536656D449EDF160C93EBC /* SPSeparatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSeparatorView.swift; path = Source/SparrowKit/UI/Other/SPSeparatorView.swift; sourceTree = "<group>"; };
+		A90AE51C56B64CC4438F70DB976FAF47 /* SPNativeLargeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPNativeLargeButton.swift; path = Source/SparrowKit/UI/Buttons/SPNativeLargeButton.swift; sourceTree = "<group>"; };
+		A92920F563958E0AF0CFDFF2CFE2E84D /* SPAudio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAudio.swift; path = Source/SparrowKit/Audio/SPAudio.swift; sourceTree = "<group>"; };
+		AE947B2C3B4D221C7AC5AC0F396AC549 /* SPStorkIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkIndicatorView.swift; path = Source/SPStorkController/SPStorkIndicatorView.swift; sourceTree = "<group>"; };
+		AFF033B42731A528F843896DB6B006E0 /* Pods-storkcontroller-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-storkcontroller-frameworks.sh"; sourceTree = "<group>"; };
+		B106EFE40B62BAF0D7F9988655835F85 /* SPLocale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPLocale.swift; path = Source/SparrowKit/Locale/SPLocale.swift; sourceTree = "<group>"; };
+		B328EE4108AC004F9536E6E8154EC79A /* SPAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAnimation.swift; path = Source/SparrowKit/Animation/SPAnimation.swift; sourceTree = "<group>"; };
+		B45ABEA880B07D7FF49460A899A7BCF4 /* Pods-storkcontroller-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-storkcontroller-Info.plist"; sourceTree = "<group>"; };
+		B676B90A75FD9C39FD5E035A5ECF7B34 /* SPUIViewControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIViewControllerExtenshion.swift; path = Source/SparrowKit/Extension/SPUIViewControllerExtenshion.swift; sourceTree = "<group>"; };
+		B6CCF2CC4B45D6062BF477AA359B1A37 /* SPAnimationSpring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAnimationSpring.swift; path = Source/SparrowKit/Animation/SPAnimationSpring.swift; sourceTree = "<group>"; };
+		B704E0CC95EC23DEA11883580A4367B3 /* SPGolubevIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPGolubevIconView.swift; path = "Source/SparrowKit/UI/Code Draw/SPGolubevIconView.swift"; sourceTree = "<group>"; };
+		B768B7C8EE552A5506D405255520A988 /* SPViber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPViber.swift; path = Source/SparrowKit/Social/viber/SPViber.swift; sourceTree = "<group>"; };
+		B810ABB04828BE7C02B599CB7B89DB4F /* SPLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPLayout.swift; path = Source/SparrowKit/Layout/SPLayout.swift; sourceTree = "<group>"; };
+		BAFDDB81A7C481D85160FEE7C080435C /* SPUserDefaultsExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUserDefaultsExtenshion.swift; path = Source/SparrowKit/Extension/SPUserDefaultsExtenshion.swift; sourceTree = "<group>"; };
+		BBA11A6878AE4A5AB15A6DA43B3F3A20 /* SPAnimationAlpha.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAnimationAlpha.swift; path = Source/SparrowKit/Animation/SPAnimationAlpha.swift; sourceTree = "<group>"; };
+		BC121DC48B21B542FAFE3F5A62DDCEB2 /* SPSystemIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSystemIconView.swift; path = "Source/SparrowKit/UI/Code Draw/SPSystemIconView.swift"; sourceTree = "<group>"; };
+		BDF67FFEADC74A6C717D677944340483 /* SPConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPConstraints.swift; path = Source/SparrowKit/Constraints/SPConstraints.swift; sourceTree = "<group>"; };
+		BFFE0D8EFC294E85FD82DB7D3EE5B01C /* SPCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCollectionViewLayout.swift; path = Source/SparrowKit/UI/Collections/Layouts/SPCollectionViewLayout.swift; sourceTree = "<group>"; };
+		C121C0AEEFD79FD44E9DC90D6184282E /* SPShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPShadow.swift; path = Source/SparrowKit/Shadow/SPShadow.swift; sourceTree = "<group>"; };
+		C13B815240A882D7E9F0F89BF4E731DF /* Pods-storkcontrollerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-storkcontrollerUITests-Info.plist"; sourceTree = "<group>"; };
+		C1F23D282C56253CB0E248AE58B7C02F /* SPFooterButtonsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFooterButtonsView.swift; path = Source/SparrowKit/UI/Other/SPFooterButtonsView.swift; sourceTree = "<group>"; };
+		C3CE88589E56EEE8E5CE0CE960BB7315 /* SPStorkController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPStorkController-Info.plist"; sourceTree = "<group>"; };
+		C440C411B2BC278D64B2BFA58277CD2C /* Pods-storkcontrollerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-storkcontrollerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7245D7C3264174C6A72EAC9779E8C07 /* SparrowKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SparrowKit.modulemap; sourceTree = "<group>"; };
+		CA8601C57D6686A45B64BD26CE5A72F7 /* SPBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPBlurView.swift; path = Source/SparrowKit/UI/Other/SPBlurView.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCAABC1F9EA37E81C8EB7A2C368F0AAC /* SPAppBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAppBadge.swift; path = Source/SparrowKit/App/SPAppBadge.swift; sourceTree = "<group>"; };
+		CD6A5FF4EA1DEAB606845001311892EE /* SPUIViewExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIViewExtenshion.swift; path = Source/SparrowKit/Extension/SPUIViewExtenshion.swift; sourceTree = "<group>"; };
+		CFD737A3E59840E8272BD59D05DE39DB /* SPSectionLabelsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSectionLabelsView.swift; path = Source/SparrowKit/UI/Labels/SPSectionLabelsView.swift; sourceTree = "<group>"; };
+		D087EC766EC4A136CE6C091555042113 /* Pods_storkcontroller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_storkcontroller.framework; path = "Pods-storkcontroller.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23A3BE04F05345940E373C50FBC74FE /* SPCodeDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCodeDraw.swift; path = "Source/SparrowKit/Code Draw/SPCodeDraw.swift"; sourceTree = "<group>"; };
+		D34C51C236A5D9A5816BD3EBFA3CA0E1 /* SparrowKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SparrowKit-Info.plist"; sourceTree = "<group>"; };
+		D35ADEB0C7B55F2236C6A062E9892C48 /* SPTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTableView.swift; path = Source/SparrowKit/UI/Tables/Views/SPTableView.swift; sourceTree = "<group>"; };
+		D73F20428B0492C25BD1D6D8FE15A8C7 /* SPUILabelExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUILabelExtenshion.swift; path = Source/SparrowKit/Extension/SPUILabelExtenshion.swift; sourceTree = "<group>"; };
+		D768F30432D1EBB66C96C01E17799F0A /* SPImageTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPImageTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/SPImageTableViewCell.swift; sourceTree = "<group>"; };
+		D7D8A5EA82145CD6B1DC351BB281AE18 /* SPDelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDelay.swift; path = Source/SparrowKit/Delay/SPDelay.swift; sourceTree = "<group>"; };
+		D83C6954A69FEDD1C5C7EDECA658907A /* SPCenterLabelsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCenterLabelsView.swift; path = Source/SparrowKit/UI/Labels/SPCenterLabelsView.swift; sourceTree = "<group>"; };
+		D84D05DB14EE4C881B2F4E82C4EEB13F /* SPGolubevGolubevIconPack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPGolubevGolubevIconPack.swift; path = "Source/SparrowKit/Code Draw/SPGolubevGolubevIconPack.swift"; sourceTree = "<group>"; };
+		D92F2A8D14A0C1BBDEBE8E135DDE92AE /* SPFormButtonTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFormButtonTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/Form/SPFormButtonTableViewCell.swift; sourceTree = "<group>"; };
+		DB68C65BB7C213BF944BDB7ABB10678F /* SPMengTransformTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPMengTransformTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/SPMengTransformTableViewCell.swift; sourceTree = "<group>"; };
+		DB6D1BE8FD2A7F2DF298B231D3F78C9A /* SPCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCollectionViewCell.swift; path = Source/SparrowKit/UI/Collections/Cells/SPCollectionViewCell.swift; sourceTree = "<group>"; };
+		DBD1B1E0E040E2EED66A868EBE237E67 /* SPStorkTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkTransitioningDelegate.swift; path = Source/SPStorkController/SPStorkTransitioningDelegate.swift; sourceTree = "<group>"; };
+		DC58094EB5B08186745F1C7ED4D1BC99 /* SPDotsButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDotsButton.swift; path = Source/SparrowKit/UI/Buttons/SPDotsButton.swift; sourceTree = "<group>"; };
+		DCF2E0BAE84B1F9C10486318408B0C1A /* SPUIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIColorExtension.swift; path = Source/SparrowKit/Extension/SPUIColorExtension.swift; sourceTree = "<group>"; };
+		DD6B3E380F32136842EDE27404BCBB56 /* SPLocalAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPLocalAuthentication.swift; path = "Source/SparrowKit/Local Authentication/SPLocalAuthentication.swift"; sourceTree = "<group>"; };
+		E755A112B2B9731794908E64E88F39CA /* SPStorkController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPStorkController.framework; path = SPStorkController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E820C14A9B3E8229F71C4DC2DAB6F070 /* SPUIVisualEffectViewExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIVisualEffectViewExtenshion.swift; path = Source/SparrowKit/Extension/SPUIVisualEffectViewExtenshion.swift; sourceTree = "<group>"; };
+		E82A436EFEB1E0F60B461035045AFBAE /* SPCodeAudioIconPack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCodeAudioIconPack.swift; path = "Source/SparrowKit/Code Draw/SPCodeAudioIconPack.swift"; sourceTree = "<group>"; };
+		EA182779B3B3C528672D3BCFF7D9642A /* SPUIButtonExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIButtonExtenshion.swift; path = Source/SparrowKit/Extension/SPUIButtonExtenshion.swift; sourceTree = "<group>"; };
+		EC0690886BB39B2796777B0AC8CD1685 /* SPTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTypes.swift; path = Source/SparrowKit/Types/SPTypes.swift; sourceTree = "<group>"; };
+		EC875260F9E8A65666028C98A8225C60 /* Pods-storkcontrollerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-storkcontrollerTests-Info.plist"; sourceTree = "<group>"; };
+		EF157499E60D88A21750D6078F41EA0E /* Pods-storkcontrollerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-storkcontrollerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFB775DCD2D72C619713EB13197FB302 /* SparrowKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SparrowKit.framework; path = SparrowKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39AFCF4CB9CFED4640016560D4780DD /* SPDownloadingUIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDownloadingUIImageView.swift; path = Source/SparrowKit/UI/Other/SPDownloadingUIImageView.swift; sourceTree = "<group>"; };
+		F4855CAC1470E4ED60E3B299268E3E82 /* SPFormFeaturedTitleTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFormFeaturedTitleTableViewCell.swift; path = Source/SparrowKit/UI/Tables/Cells/Form/SPFormFeaturedTitleTableViewCell.swift; sourceTree = "<group>"; };
+		F6808945F289A1246E2498340582D883 /* SPEmptyLabelsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPEmptyLabelsView.swift; path = Source/SparrowKit/UI/Labels/SPEmptyLabelsView.swift; sourceTree = "<group>"; };
+		FBB05333EB037F0E4CC252D6303C94A9 /* SPVideoPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPVideoPlayer.swift; path = Source/SparrowKit/UI/Other/SPVideoPlayer.swift; sourceTree = "<group>"; };
+		FE41A9BF6E6A138000022A11920C4465 /* SPMengTransformCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPMengTransformCollectionView.swift; path = Source/SparrowKit/UI/Collections/Views/SPMengTransformCollectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B4D79A6BD1617F47ABFAF5DF79677A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E4FE389F7B7FE1113EBEC66C942869 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40706F8FB6000717FDC53A2B819F3FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E5053E750C8D843FF40AE9C699F46C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9257BB9AFD4CFA3841F9B62B9686BA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2E77E381FD52292ADBB2E054983C18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADB678303D7310708377ACCB49C9F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CBC7B97277194A55E0D1FFF38A917B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF3A31D0F8A73BD4E3474FA74ADD3F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F0E2AB988CE80305D426E94F6E3899 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E426F6FFC546DA0C2BDC01B92228A87 /* Pods-storkcontrollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FD182DECF5260B90B2472C5936BDC4D /* Pods-storkcontrollerUITests.modulemap */,
+				819EE74EC1714A67C7AF50EDF5070BF4 /* Pods-storkcontrollerUITests-acknowledgements.markdown */,
+				4E8FA02EA6E6FBA7152813AC3DC9ECD7 /* Pods-storkcontrollerUITests-acknowledgements.plist */,
+				90808F0050DF30FFC1F9A8B6B5D7AB5E /* Pods-storkcontrollerUITests-dummy.m */,
+				C13B815240A882D7E9F0F89BF4E731DF /* Pods-storkcontrollerUITests-Info.plist */,
+				951485F37162E91C3230779F66040287 /* Pods-storkcontrollerUITests-umbrella.h */,
+				C440C411B2BC278D64B2BFA58277CD2C /* Pods-storkcontrollerUITests.debug.xcconfig */,
+				EF157499E60D88A21750D6078F41EA0E /* Pods-storkcontrollerUITests.release.xcconfig */,
+			);
+			name = "Pods-storkcontrollerUITests";
+			path = "Target Support Files/Pods-storkcontrollerUITests";
+			sourceTree = "<group>";
+		};
+		2E171ECA6B818AC08339727CE27BC30D /* SPStorkController */ = {
+			isa = PBXGroup;
+			children = (
+				876A804E26A0B864A74959DDF05C99D1 /* SPStorkController.swift */,
+				40E71E450E09F8EFD198E4371535E6C8 /* SPStorkDismissingAnimationController.swift */,
+				AE947B2C3B4D221C7AC5AC0F396AC549 /* SPStorkIndicatorView.swift */,
+				6995CA7748589D8D6C710DE40F0A9027 /* SPStorkPresentationController.swift */,
+				9B17017E0AC51F3C56703D710FC25839 /* SPStorkPresentingAnimationController.swift */,
+				DBD1B1E0E040E2EED66A868EBE237E67 /* SPStorkTransitioningDelegate.swift */,
+				2ACE092C24D90351C4026AE254FFF17E /* SPStorkViewControllerExtenshion.swift */,
+				522916A1B4E192AC6477E93367773A66 /* Support Files */,
+			);
+			name = SPStorkController;
+			path = SPStorkController;
+			sourceTree = "<group>";
+		};
+		35904E255D9D2BBDE0C36478E7A9AB94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D087EC766EC4A136CE6C091555042113 /* Pods_storkcontroller.framework */,
+				9EC09549EC2801F6848BD584C1497EC1 /* Pods_storkcontrollerTests.framework */,
+				1951FF766D2467E8690BA0CC92CC566B /* Pods_storkcontrollerUITests.framework */,
+				EFB775DCD2D72C619713EB13197FB302 /* SparrowKit.framework */,
+				E755A112B2B9731794908E64E88F39CA /* SPStorkController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		522916A1B4E192AC6477E93367773A66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AED552607D80CEA88B0FD14EA9E69A4 /* SPStorkController.modulemap */,
+				1362567238BECC0021F9E5665CC7FCA2 /* SPStorkController.xcconfig */,
+				048223B62934658CC0960D03F4E1A21A /* SPStorkController-dummy.m */,
+				C3CE88589E56EEE8E5CE0CE960BB7315 /* SPStorkController-Info.plist */,
+				616C2876634CAD2C273E2C85EA88D933 /* SPStorkController-prefix.pch */,
+				22D20FC9EA6C3FAB4B1012537D19357C /* SPStorkController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPStorkController";
+			sourceTree = "<group>";
+		};
+		5D63EECFB67C5286364649C62C54EB36 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				973DB8446240C3EFB4275D66BF62FE9F /* Pods-storkcontroller */,
+				7FD64F9A618815F890A050C09C174B4D /* Pods-storkcontrollerTests */,
+				1E426F6FFC546DA0C2BDC01B92228A87 /* Pods-storkcontrollerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		63848E433869F40AFE57C363EBBA3A31 /* SparrowKit */ = {
+			isa = PBXGroup;
+			children = (
+				B328EE4108AC004F9536E6E8154EC79A /* SPAnimation.swift */,
+				BBA11A6878AE4A5AB15A6DA43B3F3A20 /* SPAnimationAlpha.swift */,
+				B6CCF2CC4B45D6062BF477AA359B1A37 /* SPAnimationSpring.swift */,
+				88F7ECC13B225589C19F7723C37C3F8D /* SPAnimationUpward.swift */,
+				7BF2943CDECA5D22D12D1FD452A188C3 /* SPApp.swift */,
+				CCAABC1F9EA37E81C8EB7A2C368F0AAC /* SPAppBadge.swift */,
+				A2F66E33473D8C600BFC76A39AF70925 /* SPAppLaunch.swift */,
+				1324B8177569738BC51E450BA55FFCCE /* SPAppleMusicButton.swift */,
+				918281DAB40FEA8A493905771B493FEF /* SPAppleMusicSectionButtonsView.swift */,
+				4DEBF41BFAEF80AA977D04D81366226F /* SPAppOpener.swift */,
+				71F7D6A74F17FA5BCB14866F32829183 /* SPAppStore.swift */,
+				58866FD44D4C304873DE9F9A0A4EC17C /* SPAppStoreActionButton.swift */,
+				1162A90DE907BD7D23FB71EA07DFF53F /* SPArrayExtension.swift */,
+				A92920F563958E0AF0CFDFF2CFE2E84D /* SPAudio.swift */,
+				7E2D0554D11AEAAB03AFA185284B72CE /* SPAudioIconView.swift */,
+				7795B442108A10D9B4AFCE6033D53370 /* SPAudioPlayer.swift */,
+				762A643CE1AFFF569BCEF367A864E5DA /* SPBaseContentTableViewCell.swift */,
+				CA8601C57D6686A45B64BD26CE5A72F7 /* SPBlurView.swift */,
+				A624F24946B5AFB763704EEC3BB21BF6 /* SPBufer.swift */,
+				9BD8861DE32694751FA195F7B0DE6202 /* SPButton.swift */,
+				D83C6954A69FEDD1C5C7EDECA658907A /* SPCenterLabelsView.swift */,
+				6844AF55F92B9F13B52BD03DF7539093 /* SPCGRectExtension.swift */,
+				88F61B71821173F3B4748A656AD3CDF2 /* SPCGSizeExtenshion.swift */,
+				4DB07153A06DFE23F1E17E8BE832FA64 /* SPCircleCloseButton.swift */,
+				E82A436EFEB1E0F60B461035045AFBAE /* SPCodeAudioIconPack.swift */,
+				D23A3BE04F05345940E373C50FBC74FE /* SPCodeDraw.swift */,
+				5BFF6A3FE1E32658119F1F5F2EAFD6ED /* SPCodeSocialIconPack.swift */,
+				74F3AF16809B89E749080B1BF43B0884 /* SPCodeSystemIconPack.swift */,
+				3B7B9283CFA6156C77B60C2B55773BBB /* SPCollectionView.swift */,
+				DB6D1BE8FD2A7F2DF298B231D3F78C9A /* SPCollectionViewCell.swift */,
+				BFFE0D8EFC294E85FD82DB7D3EE5B01C /* SPCollectionViewLayout.swift */,
+				BDF67FFEADC74A6C717D677944340483 /* SPConstraints.swift */,
+				602CDEBBCE4971C42F6F8A923CEF29E9 /* SPController.swift */,
+				4D196D0A07E854E44E983E0EEBCC21C7 /* SPDateExtenshion.swift */,
+				D7D8A5EA82145CD6B1DC351BB281AE18 /* SPDelay.swift */,
+				8CAE4AFE08020D3F44F6AFEC3AF3EAE9 /* SPDevice.swift */,
+				DC58094EB5B08186745F1C7ED4D1BC99 /* SPDotsButton.swift */,
+				93CA7BC79540A7BFD78D74C0EA264705 /* SPDownloader.swift */,
+				71836B33BD92358DA33C9DA7754DA249 /* SPDownloadingButton.swift */,
+				F39AFCF4CB9CFED4640016560D4780DD /* SPDownloadingUIImageView.swift */,
+				F6808945F289A1246E2498340582D883 /* SPEmptyLabelsView.swift */,
+				01A725B0DC616E5B8091143C7F39D133 /* SPFakeBarView.swift */,
+				C1F23D282C56253CB0E248AE58B7C02F /* SPFooterButtonsView.swift */,
+				D92F2A8D14A0C1BBDEBE8E135DDE92AE /* SPFormButtonTableViewCell.swift */,
+				F4855CAC1470E4ED60E3B299268E3E82 /* SPFormFeaturedTitleTableViewCell.swift */,
+				94B6697BF3EF4BCB19377320CE83835A /* SPFormLabelTableViewCell.swift */,
+				470B1E61C7A160A1149484947E0B1CD8 /* SPFormMailTableViewCell.swift */,
+				5D17E9EA44929B5A43C4684116D62E0F /* SPFormTextFiledTableViewCell.swift */,
+				7F87E8050C911D12D3975DA82D5C233C /* SPFormTextInputTableViewCell.swift */,
+				A4F62081FEABA21BE6FE2529EDB36727 /* SPFormTextTableViewCell.swift */,
+				D84D05DB14EE4C881B2F4E82C4EEB13F /* SPGolubevGolubevIconPack.swift */,
+				B704E0CC95EC23DEA11883580A4367B3 /* SPGolubevIconView.swift */,
+				7611AEC4336FF410B2DE2ABDD633FDCD /* SPGradeBlurView.swift */,
+				01E16B203C70245385F2A916CF49F07A /* SPGradientView.swift */,
+				D768F30432D1EBB66C96C01E17799F0A /* SPImageTableViewCell.swift */,
+				35BBA5D52F3912D3EB0C51FA440E8A6E /* SPImageView.swift */,
+				9E27A6CB10CF07309884F84C1DD6F48B /* SPInstagram.swift */,
+				1D989609C6DBB7BC5C49277F3F77AA15 /* SPLabel.swift */,
+				B810ABB04828BE7C02B599CB7B89DB4F /* SPLayout.swift */,
+				DD6B3E380F32136842EDE27404BCBB56 /* SPLocalAuthentication.swift */,
+				B106EFE40B62BAF0D7F9988655835F85 /* SPLocale.swift */,
+				7420BDEE5F687D7BBA02769D348641DA /* SPLocalNotification.swift */,
+				0118DA57CE93065669544CD494EF13EC /* SPMail.swift */,
+				FE41A9BF6E6A138000022A11920C4465 /* SPMengTransformCollectionView.swift */,
+				5968E580287C305FAF3103DF6ACCD518 /* SPMengTransformCollectionViewCell.swift */,
+				DB68C65BB7C213BF944BDB7ABB10678F /* SPMengTransformTableViewCell.swift */,
+				3AA685B798C3B2CACAA7BBFEB5004B9C /* SPNativeColors.swift */,
+				A90AE51C56B64CC4438F70DB976FAF47 /* SPNativeLargeButton.swift */,
+				2A15863A2B510258573510BB0D506601 /* SPNativeTableController.swift */,
+				71962B97D1617FA78E080907992AFFB9 /* SPPageCollectionView.swift */,
+				17B7FE286FFE4B3D4BB004F1A21C698D /* SPPlayCircleButton.swift */,
+				0F0457F3F5AC712F3681711F2DA523F2 /* SPPromoTableViewCell.swift */,
+				35442A3BAF96E6CDAA401940561A3BD2 /* SPProposeController.swift */,
+				083F89A979FFF5BAD401B43646DACCEB /* SPProposeTableViewCell.swift */,
+				A29F634845143F0F03B6BDFB9662BFC1 /* SPRandom.swift */,
+				36045DD728D1B56BD61A32D8988BE365 /* SPScrollView.swift */,
+				CFD737A3E59840E8272BD59D05DE39DB /* SPSectionLabelsView.swift */,
+				A8B88C1AA7536656D449EDF160C93EBC /* SPSeparatorView.swift */,
+				C121C0AEEFD79FD44E9DC90D6184282E /* SPShadow.swift */,
+				7BF34C981E29152D2A31E2BADB1F37AE /* SPShadowDeep.swift */,
+				78A04C1136CBA4991E358D481AC73650 /* SPShare.swift */,
+				25948AF8E32770F886FD0A36001B0F98 /* SPSocialButton.swift */,
+				A615AE4B05B36C0B21D18988AB72ABE1 /* SPSocialIconView.swift */,
+				047747177719086B055B9A13195BD173 /* SPStatusBarManagerController.swift */,
+				896D83A958E34FC0A95BED5DFB1D10CB /* SPStrideableExtension.swift */,
+				1E7F8F3E3DD3CB8DEBFE0E16E3BB22F2 /* SPStringExtenshion.swift */,
+				99075DDE732E0BE0F8771E252E2EEA2C /* SPSystemIconButton.swift */,
+				BC121DC48B21B542FAFE3F5A62DDCEB2 /* SPSystemIconView.swift */,
+				07E5AEE1FA90F6578B2DA362C76A93C4 /* SPTableController.swift */,
+				D35ADEB0C7B55F2236C6A062E9892C48 /* SPTableView.swift */,
+				4A25356558E8D466EC125AD9994F39DE /* SPTableViewCell.swift */,
+				15F4BD5FC3A75959E738DC35538EA372 /* SPTelegram.swift */,
+				07F9B69EC5C23AEEAEBD71A5BC5FC490 /* SPTextField.swift */,
+				681AF1043ABE6BCC861B0120CBE89D16 /* SPTextFieldExtenshion.swift */,
+				89E6F416487F098DA698B9DEB558A7A2 /* SPTextView.swift */,
+				2506D2F13E20EC16305F5DB7C647CE05 /* SPTwitter.swift */,
+				EC0690886BB39B2796777B0AC8CD1685 /* SPTypes.swift */,
+				5E745C2622FD8B4B21C7F2476A2B41EC /* SPUIAlertControllerExtenshion.swift */,
+				EA182779B3B3C528672D3BCFF7D9642A /* SPUIButtonExtenshion.swift */,
+				5C4DDD43FCA2134117AC87D96393C1F4 /* SPUICollectionViewExtenshion.swift */,
+				DCF2E0BAE84B1F9C10486318408B0C1A /* SPUIColorExtension.swift */,
+				58416628786C1662A0318A810562F5F0 /* SPUIFontExtenshion.swift */,
+				273505641BEA1FF52D0883C236DEE317 /* SPUIImageExtension.swift */,
+				6F157F74E2D56D5F3DC36B0D967957E0 /* SPUIImageViewExtenshion.swift */,
+				D73F20428B0492C25BD1D6D8FE15A8C7 /* SPUILabelExtenshion.swift */,
+				096097C5D02D9F453CB388EF01533B22 /* SPUINavigationControllerExtenshion.swift */,
+				270C835CDC31EAA15AED9F48D0AB330B /* SPUITabBarControllerExtenshion.swift */,
+				2C684B08EF5337F81058916B78531696 /* SPUITableView.swift */,
+				12AA501976CDA82072BD1811F236170D /* SPUITableViewCellExtenshion.swift */,
+				78EB1296BC88DE16856A998722E1533E /* SPUITextFieldExtenshion.swift */,
+				B676B90A75FD9C39FD5E035A5ECF7B34 /* SPUIViewControllerExtenshion.swift */,
+				CD6A5FF4EA1DEAB606845001311892EE /* SPUIViewExtenshion.swift */,
+				E820C14A9B3E8229F71C4DC2DAB6F070 /* SPUIVisualEffectViewExtenshion.swift */,
+				BAFDDB81A7C481D85160FEE7C080435C /* SPUserDefaultsExtenshion.swift */,
+				B768B7C8EE552A5506D405255520A988 /* SPViber.swift */,
+				53342991E44BD44476FBA2B878A25D45 /* SPVibration.swift */,
+				FBB05333EB037F0E4CC252D6303C94A9 /* SPVideoPlayer.swift */,
+				40D5C0233981B068A531C5EAEB1FE4F5 /* SPView.swift */,
+				7AC90318FA050C9E060C63722775D15B /* SPWhatsApp.swift */,
+				E9D29640AAB086FE6EFDE78CF1F6D543 /* Support Files */,
+			);
+			name = SparrowKit;
+			path = SparrowKit;
+			sourceTree = "<group>";
+		};
+		7FD64F9A618815F890A050C09C174B4D /* Pods-storkcontrollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				13C60B232423D1C6A64E4F01614BCDD5 /* Pods-storkcontrollerTests.modulemap */,
+				8C603C805CFB5B0B70C5ACA14E9C38D0 /* Pods-storkcontrollerTests-acknowledgements.markdown */,
+				0455D20FD10FFD33188CBA231C46EA3A /* Pods-storkcontrollerTests-acknowledgements.plist */,
+				4344A00F75F8BEAC708130322BB613F5 /* Pods-storkcontrollerTests-dummy.m */,
+				EC875260F9E8A65666028C98A8225C60 /* Pods-storkcontrollerTests-Info.plist */,
+				447462A5F361453B0897E609C2C9979B /* Pods-storkcontrollerTests-umbrella.h */,
+				14DBDEA8907998931AED2354477E9EE1 /* Pods-storkcontrollerTests.debug.xcconfig */,
+				8D5F76065B2AEB0658862CDC2F84E915 /* Pods-storkcontrollerTests.release.xcconfig */,
+			);
+			name = "Pods-storkcontrollerTests";
+			path = "Target Support Files/Pods-storkcontrollerTests";
+			sourceTree = "<group>";
+		};
+		973DB8446240C3EFB4275D66BF62FE9F /* Pods-storkcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4807DBD421298F1D57AE0AE6C74CC /* Pods-storkcontroller.modulemap */,
+				99D4BECD6518B21497D39375F3BB935D /* Pods-storkcontroller-acknowledgements.markdown */,
+				300F4BC5C5EE2A99AF12A98AF3B6798F /* Pods-storkcontroller-acknowledgements.plist */,
+				9DCCE0CCC80390AE96E89722AF8B4E4C /* Pods-storkcontroller-dummy.m */,
+				AFF033B42731A528F843896DB6B006E0 /* Pods-storkcontroller-frameworks.sh */,
+				B45ABEA880B07D7FF49460A899A7BCF4 /* Pods-storkcontroller-Info.plist */,
+				28C1E6DDB1EEB25539B1C6C7BAD3CC7A /* Pods-storkcontroller-umbrella.h */,
+				727A32FD4F48BF5A71FE0FEBC05B9E4B /* Pods-storkcontroller.debug.xcconfig */,
+				37CDAA837CFFDCDC941302E7AF321CC7 /* Pods-storkcontroller.release.xcconfig */,
+			);
+			name = "Pods-storkcontroller";
+			path = "Target Support Files/Pods-storkcontroller";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EAE2362EDA6F30A103A8DD09121C4CCC /* Pods */,
+				35904E255D9D2BBDE0C36478E7A9AB94 /* Products */,
+				5D63EECFB67C5286364649C62C54EB36 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9D29640AAB086FE6EFDE78CF1F6D543 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7245D7C3264174C6A72EAC9779E8C07 /* SparrowKit.modulemap */,
+				0E811F6B5AC3849AFFEB4D653DFA904A /* SparrowKit.xcconfig */,
+				03FC92931EEF42552E8B3307D1438716 /* SparrowKit-dummy.m */,
+				D34C51C236A5D9A5816BD3EBFA3CA0E1 /* SparrowKit-Info.plist */,
+				74C7B76C6495051B47E291F3A5072FE3 /* SparrowKit-prefix.pch */,
+				A32A918F1AA4270F146D9C98BBEA7967 /* SparrowKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SparrowKit";
+			sourceTree = "<group>";
+		};
+		EAE2362EDA6F30A103A8DD09121C4CCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63848E433869F40AFE57C363EBBA3A31 /* SparrowKit */,
+				2E171ECA6B818AC08339727CE27BC30D /* SPStorkController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04914D0A353E4E274AA9ABA2C086587C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDF0DEA4F8B24606066E8B120A751B5 /* SparrowKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BB72FBCEBA9F0ABCECC002FE9EA1E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBCD5D368DEBBCD2255EE0B7509C910 /* Pods-storkcontrollerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B0E66D5D0F9433FA8BE559FEA4B71D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8F481B2C8750D1B4092B425D0960EF /* SPStorkController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F144F5069D96C4FC04142BFF7F9EF6AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FBCC8363FF7C266D53B7E5DCB1ABF2 /* Pods-storkcontrollerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA1C77CE338E5596CF7EAF10748D939 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DC10F1D905F79005A3E53551D18C21 /* Pods-storkcontroller-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FA38BC70E0992B68A74FFE9CE1241D0 /* Pods-storkcontrollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE1BC3246AEED5CEFC0B624AB86F980 /* Build configuration list for PBXNativeTarget "Pods-storkcontrollerUITests" */;
+			buildPhases = (
+				64BB72FBCEBA9F0ABCECC002FE9EA1E2 /* Headers */,
+				4C0BA1A0ABB0291252502FA86D145F28 /* Sources */,
+				AADB678303D7310708377ACCB49C9F74 /* Frameworks */,
+				FCE8C3659FCA8D20E7C8F07B566C79A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFC9FB05ADF064834E26C578C8B8EC84 /* PBXTargetDependency */,
+			);
+			name = "Pods-storkcontrollerUITests";
+			productName = "Pods-storkcontrollerUITests";
+			productReference = 1951FF766D2467E8690BA0CC92CC566B /* Pods_storkcontrollerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		589B2B962D7399B92EA012C9BE9004ED /* SPStorkController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7D4D1F949389EBBCF1E88DCF1B41B7 /* Build configuration list for PBXNativeTarget "SPStorkController" */;
+			buildPhases = (
+				B1B0E66D5D0F9433FA8BE559FEA4B71D /* Headers */,
+				50041630A6EA8A33B9EAEFABEFF12C85 /* Sources */,
+				9257BB9AFD4CFA3841F9B62B9686BA72 /* Frameworks */,
+				560033FBEEE04B2E943ACAA2D2953C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPStorkController;
+			productName = SPStorkController;
+			productReference = E755A112B2B9731794908E64E88F39CA /* SPStorkController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BC023946A70A958BF4903B2D526207D /* Pods-storkcontroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11CEE43BF452861B2B9A558C2F6BB1A /* Build configuration list for PBXNativeTarget "Pods-storkcontroller" */;
+			buildPhases = (
+				FAA1C77CE338E5596CF7EAF10748D939 /* Headers */,
+				B3C6E73A6A6DE51E41639A93865F43E8 /* Sources */,
+				18B4D79A6BD1617F47ABFAF5DF79677A /* Frameworks */,
+				51BC2BA024900D36B4486AF6DDF19FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC2AF34A9DB246D2D1BD23B657EA38F /* PBXTargetDependency */,
+				31B8285D75493E249C8A1F53E72915D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-storkcontroller";
+			productName = "Pods-storkcontroller";
+			productReference = D087EC766EC4A136CE6C091555042113 /* Pods_storkcontroller.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A048FE0852268B8E29CFCF29955840F2 /* SparrowKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981E4DD351C55E753CAEE54FE305C794 /* Build configuration list for PBXNativeTarget "SparrowKit" */;
+			buildPhases = (
+				04914D0A353E4E274AA9ABA2C086587C /* Headers */,
+				14C3100EB627FA0DB380AD21269332B7 /* Sources */,
+				40706F8FB6000717FDC53A2B819F3FAC /* Frameworks */,
+				C98DD16E35216EA89CAB69DEED19D3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparrowKit;
+			productName = SparrowKit;
+			productReference = EFB775DCD2D72C619713EB13197FB302 /* SparrowKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBEC26A7CC41641D74357F9579A2380B /* Pods-storkcontrollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFE2CBC1AFE0E5AE30C271E3427919C /* Build configuration list for PBXNativeTarget "Pods-storkcontrollerTests" */;
+			buildPhases = (
+				F144F5069D96C4FC04142BFF7F9EF6AE /* Headers */,
+				96B7E164CCA5C3308DA271254A852A67 /* Sources */,
+				FCF3A31D0F8A73BD4E3474FA74ADD3F4 /* Frameworks */,
+				31ABCAEDC4A5DF48ABC45CDBADC5D75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89C53F5CE8E4CF919044220AB0923E34 /* PBXTargetDependency */,
+			);
+			name = "Pods-storkcontrollerTests";
+			productName = "Pods-storkcontrollerTests";
+			productReference = 9EC09549EC2801F6848BD584C1497EC1 /* Pods_storkcontrollerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 35904E255D9D2BBDE0C36478E7A9AB94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC023946A70A958BF4903B2D526207D /* Pods-storkcontroller */,
+				DBEC26A7CC41641D74357F9579A2380B /* Pods-storkcontrollerTests */,
+				3FA38BC70E0992B68A74FFE9CE1241D0 /* Pods-storkcontrollerUITests */,
+				A048FE0852268B8E29CFCF29955840F2 /* SparrowKit */,
+				589B2B962D7399B92EA012C9BE9004ED /* SPStorkController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31ABCAEDC4A5DF48ABC45CDBADC5D75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BC2BA024900D36B4486AF6DDF19FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560033FBEEE04B2E943ACAA2D2953C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98DD16E35216EA89CAB69DEED19D3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE8C3659FCA8D20E7C8F07B566C79A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C3100EB627FA0DB380AD21269332B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9FF40268DAB797841320CDAA646EFA /* SPAnimation.swift in Sources */,
+				C1DAC09068388D1B83B0B68C0BC44740 /* SPAnimationAlpha.swift in Sources */,
+				F80B3B2BF53F893139A5404E197B9157 /* SPAnimationSpring.swift in Sources */,
+				88221EF23EAE6B91ACA37BCAF950CCFE /* SPAnimationUpward.swift in Sources */,
+				B3F4F5E01B935B3C79D2B9B2CD191593 /* SPApp.swift in Sources */,
+				E0DC2A39389CF5E569079EECE31D8E28 /* SPAppBadge.swift in Sources */,
+				1C0D2DC26D69D22D5516D945F545F33E /* SPAppLaunch.swift in Sources */,
+				39F47EF534C6CD7CD0F838693FA98F16 /* SPAppleMusicButton.swift in Sources */,
+				B76A80E686169EB4527981444E01A673 /* SPAppleMusicSectionButtonsView.swift in Sources */,
+				6F734D0DD1172865874E7B719D622E95 /* SPAppOpener.swift in Sources */,
+				350535580F1A4BB93AC0DC01C1A652C0 /* SPAppStore.swift in Sources */,
+				E1FB9264DA7758FED3542F5A6F6A313A /* SPAppStoreActionButton.swift in Sources */,
+				2220D34E7163D554029505498A170286 /* SPArrayExtension.swift in Sources */,
+				71D09185FB6C5098003837A02698C071 /* SparrowKit-dummy.m in Sources */,
+				A00EBC26D94B2F4550006C9C1FCE0B85 /* SPAudio.swift in Sources */,
+				94907A94A082DDAB2DEC61783B10AF73 /* SPAudioIconView.swift in Sources */,
+				A3180159741551E4219C81E6ADDF87A4 /* SPAudioPlayer.swift in Sources */,
+				4602713133CE0DAFA1ECA97445E115E0 /* SPBaseContentTableViewCell.swift in Sources */,
+				61B756B9D16F0203FBF672854D423738 /* SPBlurView.swift in Sources */,
+				5C8F4D30427B7479DC3F6D84B34F1F0F /* SPBufer.swift in Sources */,
+				1AD200A6D518873744B9DC6EA1CB06AF /* SPButton.swift in Sources */,
+				AA6DDC44A7C210990C1B130262294505 /* SPCenterLabelsView.swift in Sources */,
+				419FF1963F6F4C220D5AAE975D2BBDDE /* SPCGRectExtension.swift in Sources */,
+				EC60A82DB6D8638F6E9566C42AAD249A /* SPCGSizeExtenshion.swift in Sources */,
+				DE924D014244CC9407F1B8E7A367899C /* SPCircleCloseButton.swift in Sources */,
+				589266F9B0797D721BA534A1AA05FC1D /* SPCodeAudioIconPack.swift in Sources */,
+				DCCB3F94E5B4EFE1B00557755FE667C7 /* SPCodeDraw.swift in Sources */,
+				7AC0858BC669E332E7B24CCD1F8A35BA /* SPCodeSocialIconPack.swift in Sources */,
+				171661B498EC8BE8E3F428FEC92775EC /* SPCodeSystemIconPack.swift in Sources */,
+				66921DA371B5D8D43BB5C8C68BCF59E0 /* SPCollectionView.swift in Sources */,
+				77B01A7601E69690D7599244DE57581E /* SPCollectionViewCell.swift in Sources */,
+				0FAFEA477DC115BD34822B12A426B518 /* SPCollectionViewLayout.swift in Sources */,
+				6AB78B9291D9AC9936FC5169C4732F83 /* SPConstraints.swift in Sources */,
+				13280EA0C34CDA5342A38715EDCCA61D /* SPController.swift in Sources */,
+				421C896B458706B9909EE7CB067FE493 /* SPDateExtenshion.swift in Sources */,
+				BEEB627DA6AF22F9300A15A937CAC5A9 /* SPDelay.swift in Sources */,
+				B99B8988281651EDDE804338B7EA9BB8 /* SPDevice.swift in Sources */,
+				7061D1DBA9DAD1E716E0D3D7A494A605 /* SPDotsButton.swift in Sources */,
+				23B76AFEA210718069B10B74CA6F48BE /* SPDownloader.swift in Sources */,
+				C5C11DD0B04FE18EE4E39610D0EAB88E /* SPDownloadingButton.swift in Sources */,
+				20082258188F53B2F7CACE6D2BC114B8 /* SPDownloadingUIImageView.swift in Sources */,
+				52D09729558504BC3582A679D61E94BF /* SPEmptyLabelsView.swift in Sources */,
+				53FF150F48AC055975CD22FED3034ADF /* SPFakeBarView.swift in Sources */,
+				8CEC7ED65DAF16AC86940086026ECC11 /* SPFooterButtonsView.swift in Sources */,
+				801D01512BC56B1965DE6D47CED2653C /* SPFormButtonTableViewCell.swift in Sources */,
+				8B9CA47027A93A4EF913FA492CA9FEC3 /* SPFormFeaturedTitleTableViewCell.swift in Sources */,
+				65070AE8FC4E46BDFCACB62E2274F93E /* SPFormLabelTableViewCell.swift in Sources */,
+				19241FA8F3BE2CEDCB782CF74089E4BE /* SPFormMailTableViewCell.swift in Sources */,
+				2A2D50AB5B6C0AC53621059271197580 /* SPFormTextFiledTableViewCell.swift in Sources */,
+				C10EDB4C7211240C84A94E33F2C0E835 /* SPFormTextInputTableViewCell.swift in Sources */,
+				60EE5D01DFF9C4EC9D289DE8A4785616 /* SPFormTextTableViewCell.swift in Sources */,
+				12C765B2DEC8F091AA40F2614054B3CB /* SPGolubevGolubevIconPack.swift in Sources */,
+				9AC6A662BAB2D36516E75CF8DC6F65D6 /* SPGolubevIconView.swift in Sources */,
+				5F312A220D971BACD5ABED36E567B289 /* SPGradeBlurView.swift in Sources */,
+				E532E3A57B5F9679E21FCDF212902CCC /* SPGradientView.swift in Sources */,
+				1552CEE07573B671215546C51D123AF3 /* SPImageTableViewCell.swift in Sources */,
+				0FB2E783374A02D05B9C4DF097085D0E /* SPImageView.swift in Sources */,
+				E375A11A71196BE33E2ED5C9D0342469 /* SPInstagram.swift in Sources */,
+				01C2C5E659A7305B155CA8ADAB82AED4 /* SPLabel.swift in Sources */,
+				BE7D5799358CD9BDCA8CD79A63B58242 /* SPLayout.swift in Sources */,
+				966F2D42B3D7960C37CCA2C563F3D7E1 /* SPLocalAuthentication.swift in Sources */,
+				782FAB878B02B7B1D78A485C25BC438C /* SPLocale.swift in Sources */,
+				F8BB21C20058B8F9B8076C47684B61EF /* SPLocalNotification.swift in Sources */,
+				CA8DF38A70AC59B234CBE0CF48BF1FFF /* SPMail.swift in Sources */,
+				A78D37BC20C0D8F56BB0C149C87E45C1 /* SPMengTransformCollectionView.swift in Sources */,
+				C4E25DB3FEE0B5754725355AAD46CBAE /* SPMengTransformCollectionViewCell.swift in Sources */,
+				6728F6CB1894AC6A613AD7921381CF30 /* SPMengTransformTableViewCell.swift in Sources */,
+				C6CB10BA814F0B85040237275736739A /* SPNativeColors.swift in Sources */,
+				B32A4B706B26AFD77E70D77500C6E120 /* SPNativeLargeButton.swift in Sources */,
+				62893533FCB9B7BF979622A5972B10F1 /* SPNativeTableController.swift in Sources */,
+				78B493236F2172996B947B6F376B2231 /* SPPageCollectionView.swift in Sources */,
+				A872BF9641386ED48B9F8AD57FCE98CA /* SPPlayCircleButton.swift in Sources */,
+				D80DD73C677580B4E12FA00D165BF0D5 /* SPPromoTableViewCell.swift in Sources */,
+				15123C3B8EF626C6E76DF4A3CFE935C8 /* SPProposeController.swift in Sources */,
+				FB2E6ACC7D73BCBD65CD1CF7C5FE23BE /* SPProposeTableViewCell.swift in Sources */,
+				B3C035CE4B3AD0936DEFF9A450DF6A2B /* SPRandom.swift in Sources */,
+				CBD57585B113EFA399DCE8EA9E4F6744 /* SPScrollView.swift in Sources */,
+				FFBCDD51237B0F48D5F4085150F2F52D /* SPSectionLabelsView.swift in Sources */,
+				71FC0A1C0279D11728BA889028ECACC0 /* SPSeparatorView.swift in Sources */,
+				E7DF75C34A4ED610FF7D44B6E6C129FC /* SPShadow.swift in Sources */,
+				BB0F6CC5B1AFC516E6E08FFE890AFD08 /* SPShadowDeep.swift in Sources */,
+				B6DA23CABFCF85367B26A3B543FE10F2 /* SPShare.swift in Sources */,
+				9C0B1EC8912438AC2A345CCBCD443A68 /* SPSocialButton.swift in Sources */,
+				EA164D4C1C5944DF17680606F2DF8950 /* SPSocialIconView.swift in Sources */,
+				4B7D2A4EEC2ED6E00F9640A65689FA2B /* SPStatusBarManagerController.swift in Sources */,
+				EF3773032B29D1F0BECAB6C218E0649A /* SPStrideableExtension.swift in Sources */,
+				CAAC6EA9371703D3BBBC9E8A50439D3A /* SPStringExtenshion.swift in Sources */,
+				170272EACD3D9BA6AB575219F397E3DE /* SPSystemIconButton.swift in Sources */,
+				5B1505F5097A737C72A036AA7A2D158D /* SPSystemIconView.swift in Sources */,
+				1E2FFDA3FF793C6D36806E8204BC20F3 /* SPTableController.swift in Sources */,
+				A229E73A2A1E0E37FC42E0A42A2158B6 /* SPTableView.swift in Sources */,
+				5EF6DFAD5335FFC40DA84A308525E7AD /* SPTableViewCell.swift in Sources */,
+				ECBE0C1E382695A1F18704FB433EFDE5 /* SPTelegram.swift in Sources */,
+				85BAAD291A7AA8223716EBB19A02680F /* SPTextField.swift in Sources */,
+				BD2D24850C145FD4B4D8D587D00E0399 /* SPTextFieldExtenshion.swift in Sources */,
+				D1CE6F7973A02C5D6076FBCE16CC3716 /* SPTextView.swift in Sources */,
+				936034ACAAE71898D6935E8B98A973BB /* SPTwitter.swift in Sources */,
+				B93663ABF1ABC24567AAB76D2E297D5C /* SPTypes.swift in Sources */,
+				4D94289C955D223C4DC15CD6C0067503 /* SPUIAlertControllerExtenshion.swift in Sources */,
+				41FBD611A8E763A8522180E200557975 /* SPUIButtonExtenshion.swift in Sources */,
+				111F1D44FC24BB423D3B908E53818EFC /* SPUICollectionViewExtenshion.swift in Sources */,
+				0B0572CD7F1781F8A914EBBAF547B563 /* SPUIColorExtension.swift in Sources */,
+				274A354AEA9E6DE18BBBA93C5E3920AD /* SPUIFontExtenshion.swift in Sources */,
+				E436C2077A56C7E5569BA0B9C57E4684 /* SPUIImageExtension.swift in Sources */,
+				868820C383ECBFCBB8AB27C4155EB636 /* SPUIImageViewExtenshion.swift in Sources */,
+				EA942469C9DDB3598F51253AEE066495 /* SPUILabelExtenshion.swift in Sources */,
+				E31C506500D1AB86BA295160CAD2627A /* SPUINavigationControllerExtenshion.swift in Sources */,
+				0B34F4485D1FA445FA6EC5A142791B76 /* SPUITabBarControllerExtenshion.swift in Sources */,
+				20205E6DE7924BC49EE78013EB7B58ED /* SPUITableView.swift in Sources */,
+				5B9F1B86D6B2BC22F30125FDC1AB7425 /* SPUITableViewCellExtenshion.swift in Sources */,
+				EE76E76401AE534F1175CAF8D2B76474 /* SPUITextFieldExtenshion.swift in Sources */,
+				A6C9CAAACD52D404B3F440BE9A033485 /* SPUIViewControllerExtenshion.swift in Sources */,
+				38439730CBF12E2AA0999C679FE67B56 /* SPUIViewExtenshion.swift in Sources */,
+				6E34101FD0B47EBE3225D96823C430D2 /* SPUIVisualEffectViewExtenshion.swift in Sources */,
+				B82C3B02193572E2927B79D55DB50549 /* SPUserDefaultsExtenshion.swift in Sources */,
+				1ACE29ABE60CB7CDEAA1ABBB2FFAF81B /* SPViber.swift in Sources */,
+				4CCFEE179CA85F401D872EEF83C64E36 /* SPVibration.swift in Sources */,
+				999DCC57F1086CFF21DBD863E8C96995 /* SPVideoPlayer.swift in Sources */,
+				8546F34049D2A004258D86BB6EAEA50A /* SPView.swift in Sources */,
+				BC1B5C7A6616C3B266A68764C046E666 /* SPWhatsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0BA1A0ABB0291252502FA86D145F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AFB71B5ED356D892F2DF7EDCB2F3A9 /* Pods-storkcontrollerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50041630A6EA8A33B9EAEFABEFF12C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE67D73EC1617A4771DCDACCCC06CD9A /* SPStorkController-dummy.m in Sources */,
+				3FB256BFD5A2BABD1F984F63E03F582D /* SPStorkController.swift in Sources */,
+				7F88BEA6290624FA752AA84C9FBB207D /* SPStorkDismissingAnimationController.swift in Sources */,
+				4A6042D1B1839E9AB3EB5ED88EC7247F /* SPStorkIndicatorView.swift in Sources */,
+				0F245601768F9E72972795C132B0BC37 /* SPStorkPresentationController.swift in Sources */,
+				15DBED2C1924F0D4C44EB6F19509A89C /* SPStorkPresentingAnimationController.swift in Sources */,
+				AB2D356C9BE06B2C4B131BB1769BFA05 /* SPStorkTransitioningDelegate.swift in Sources */,
+				3922F249A652A1DBFDEC1EB5D081F683 /* SPStorkViewControllerExtenshion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B7E164CCA5C3308DA271254A852A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6C161DF6F98A64573FF1F62D2138AD /* Pods-storkcontrollerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C6E73A6A6DE51E41639A93865F43E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856454BDF0B0F9DAAF02AF01EBDE4CD3 /* Pods-storkcontroller-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31B8285D75493E249C8A1F53E72915D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SparrowKit;
+			target = A048FE0852268B8E29CFCF29955840F2 /* SparrowKit */;
+			targetProxy = 8E6ED20A26195CA866B38D1BED5BFFF0 /* PBXContainerItemProxy */;
+		};
+		89C53F5CE8E4CF919044220AB0923E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-storkcontroller";
+			target = 5BC023946A70A958BF4903B2D526207D /* Pods-storkcontroller */;
+			targetProxy = 9F241002176604C241D9388C1BA9D1E1 /* PBXContainerItemProxy */;
+		};
+		AEC2AF34A9DB246D2D1BD23B657EA38F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPStorkController;
+			target = 589B2B962D7399B92EA012C9BE9004ED /* SPStorkController */;
+			targetProxy = BC3093C4DDC08DF89915CF15E7B4EA5B /* PBXContainerItemProxy */;
+		};
+		DFC9FB05ADF064834E26C578C8B8EC84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-storkcontroller";
+			target = 5BC023946A70A958BF4903B2D526207D /* Pods-storkcontroller */;
+			targetProxy = B9E8E02B3BE00ABDC6523B137899B8C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26E7C65C746AFCDA24DA8DF148EBDD51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CDAA837CFFDCDC941302E7AF321CC7 /* Pods-storkcontroller.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-storkcontroller/Pods-storkcontroller-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-storkcontroller/Pods-storkcontroller.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B116289F1EE348F3639967C30EBCF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727A32FD4F48BF5A71FE0FEBC05B9E4B /* Pods-storkcontroller.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-storkcontroller/Pods-storkcontroller-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-storkcontroller/Pods-storkcontroller.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46466A68009098BD86A562600109C3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1362567238BECC0021F9E5665CC7FCA2 /* SPStorkController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPStorkController/SPStorkController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPStorkController/SPStorkController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPStorkController/SPStorkController.modulemap";
+				PRODUCT_MODULE_NAME = SPStorkController;
+				PRODUCT_NAME = SPStorkController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BA766757C908F0F5AEE7F0FFE5A7392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF157499E60D88A21750D6078F41EA0E /* Pods-storkcontrollerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-storkcontrollerUITests/Pods-storkcontrollerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-storkcontrollerUITests/Pods-storkcontrollerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		881F52563FF0B58AE223AEDF4E873B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C440C411B2BC278D64B2BFA58277CD2C /* Pods-storkcontrollerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-storkcontrollerUITests/Pods-storkcontrollerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-storkcontrollerUITests/Pods-storkcontrollerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B2314A7C0289ECA734061FE00151A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E811F6B5AC3849AFFEB4D653DFA904A /* SparrowKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SparrowKit/SparrowKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SparrowKit/SparrowKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SparrowKit/SparrowKit.modulemap";
+				PRODUCT_MODULE_NAME = SparrowKit;
+				PRODUCT_NAME = SparrowKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CCD80833C2281AEC780640217B649597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14DBDEA8907998931AED2354477E9EE1 /* Pods-storkcontrollerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-storkcontrollerTests/Pods-storkcontrollerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-storkcontrollerTests/Pods-storkcontrollerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE2457E8609CA7290D89516A1F180A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5F76065B2AEB0658862CDC2F84E915 /* Pods-storkcontrollerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-storkcontrollerTests/Pods-storkcontrollerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-storkcontrollerTests/Pods-storkcontrollerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8494A65374E70ECC3A9B0169729EF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E811F6B5AC3849AFFEB4D653DFA904A /* SparrowKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SparrowKit/SparrowKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SparrowKit/SparrowKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SparrowKit/SparrowKit.modulemap";
+				PRODUCT_MODULE_NAME = SparrowKit;
+				PRODUCT_NAME = SparrowKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAEBA3F75E794E8CD16F1F6CFF5BDD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1362567238BECC0021F9E5665CC7FCA2 /* SPStorkController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPStorkController/SPStorkController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPStorkController/SPStorkController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPStorkController/SPStorkController.modulemap";
+				PRODUCT_MODULE_NAME = SPStorkController;
+				PRODUCT_NAME = SPStorkController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE1BC3246AEED5CEFC0B624AB86F980 /* Build configuration list for PBXNativeTarget "Pods-storkcontrollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881F52563FF0B58AE223AEDF4E873B39 /* Debug */,
+				7BA766757C908F0F5AEE7F0FFE5A7392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7D4D1F949389EBBCF1E88DCF1B41B7 /* Build configuration list for PBXNativeTarget "SPStorkController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEBA3F75E794E8CD16F1F6CFF5BDD86 /* Debug */,
+				46466A68009098BD86A562600109C3A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981E4DD351C55E753CAEE54FE305C794 /* Build configuration list for PBXNativeTarget "SparrowKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2314A7C0289ECA734061FE00151A27 /* Debug */,
+				E8494A65374E70ECC3A9B0169729EF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11CEE43BF452861B2B9A558C2F6BB1A /* Build configuration list for PBXNativeTarget "Pods-storkcontroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B116289F1EE348F3639967C30EBCF01 /* Debug */,
+				26E7C65C746AFCDA24DA8DF148EBDD51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFE2CBC1AFE0E5AE30C271E3427919C /* Build configuration list for PBXNativeTarget "Pods-storkcontrollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD80833C2281AEC780640217B649597 /* Debug */,
+				CE2457E8609CA7290D89516A1F180A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
